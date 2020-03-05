@@ -1,0 +1,12 @@
+/* .homebannerbg{} */
+
+.homebannerbg{background:url(../../../assets/images/homebannerbg.jpg) no-repeat center center #fac223;background-size: cover;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding-top:15px!important;height: 100vh;}
+/* .homebannerbg_wrapper{margin:0 auto!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;width:1460px;display:block!important;margin-bottom:0!important} */
+
+.homebanner-img-wrapper{width: 655px; height: 708px; overflow: hidden;display: block;}
+.homebanner-img-wrapper img{width: 100%;}
+
+.homebannerbg .mainwrappercontent {height: 100%;}
+.homebannerbg .flex-row-gen{    height: 100%;align-items: center;}
+.homebannerbg .main-row-gen {align-items: center;padding-top: 84px;}
+.mat-card-title{}

@@ -8,19 +8,43 @@ import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgtUniversalModule } from '@ng-toolkit/universal';
 
+import { MetaModule } from '@ngx-meta/core';
+
+import { DemoMaterialModule } from 'src/material-module';
+
+import { HomeComponent } from './component/home/home.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { GeoFenceComponent } from './component/geo-fence/geo-fence.component';
+import { ServicesComponent } from './component/services/services.component';
+import { MarketingDataComponent } from './component/marketing-data/marketing-data.component';
+import { TeamComponent } from './component/team/team.component';
+import { ContactUsComponent } from './component/contact-us/contact-us.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    GeoFenceComponent,
+    ServicesComponent,
+    MarketingDataComponent,
+    TeamComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    MetaModule.forRoot(),
     AppRoutingModule,
     CommonModule,
     TransferHttpCacheModule,
     HttpClientModule,
-    NgtUniversalModule
+    NgtUniversalModule,
+    DemoMaterialModule,  
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: []
 })
 export class AppModule { }
