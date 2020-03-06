@@ -68,6 +68,16 @@
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8){order:8;z-index: 9;}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8) .sideblock-gen{box-shadow: none;}
 
+:host /deep/ .homeblock4.pTB .mat-list-base{position: relative;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item::after {
+  content: '';
+  position: absolute;
+  top: 16%;
+  left: 0;
+  width: 100%;
+  z-index: 999999999;
+}
+
 @media (max-width:1700px){
   .homeblock2.mat-card {
     background-position: top right 40%!important;
