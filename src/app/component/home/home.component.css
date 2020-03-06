@@ -33,11 +33,40 @@
 .homeblock3.pTB .sideblock-row-gen .mat-card-title3{text-align: left;font-family: VAR(--main-font);margin-top: 0px !important;margin-left: 15px;}
 .homeblock3.pTB .mat-list-base .mat-list-item, .homeblock3.pTB .mat-list-base .mat-list-option{height: auto;width: 33.33%;padding-left: 50px;padding-right: 50px;}
 :host /deep/ .mat-list-base .mat-list-item .mat-list-item-content,  :host /deep/ .mat-list-base .mat-list-option .mat-list-item-content{padding: 0;}
-:host /deep/ .homeblock3.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: space-between;}
+:host /deep/ .homeblock3.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: space-between;margin-top: 30px;}
 .homeblock3.pTB .flex-row-gen .main-row-gen .flex-row-gen{justify-content: center;}
 .homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content p{color: var(--color7-txt);}
 .homeblock3.pTB .mat-list-base .mat-list-item{position: relative;}
 .homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content{margin-bottom: 0;}
+
+.homeblock4.pTB p{color:var(--color-txt)}
+.homeblock4.pTB .mat-card-title1{color:var(--color-txt)}
+.homeblock4.pTB p{width: auto;}
+.homeblock4.mat-card {
+  background: url(../../../assets/images/homeblock4bg.jpg) top right 35%/cover no-repeat;
+  padding: 0;
+  border-radius: var(--border-radius-0);
+  min-height: 1px;
+}
+.homeblock4listswrapper {background-color: var(--body-bg);padding:25px 0;border-radius: 20px;margin-top: 30px;}
+:host /deep/ .homeblock4.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: space-between;flex-wrap: wrap;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height: auto;width: 12.50%;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .sideblock-gen{box-shadow: 10px 0 6px -6px rgba(0,0,0,0.2);}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .mat-list-item-content{height: 100%;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .mat-list-item-content .flex-column-gen{height: 100%;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .mat-list-item-content .flex-column-gen .sideblock-gen{height: 100%;display: flex;align-items: center;justify-content: center;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .mat-list-item-content .flex-column-gen .sideblock-gen p{font-family: var(--main-semibold-font); font-size: var(--base-menu-font-size);margin-top: 0px !important;padding: 50px 15px;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .box-gradient-yellow p{color: var(--main-txt-color) !important;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .box-gradient-green p{color: var(--main-txt-color) !important;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(1){order:1;z-index: 99999999;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(2){order:2;z-index: 9999999;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(3){order:3;z-index: 999999;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(4){order:4;z-index: 99999;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(5){order:5;z-index: 9999;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(6){order:6;z-index: 999;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(7){order:7;z-index: 99;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8){order:8;z-index: 9;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8) .sideblock-gen{box-shadow: none;}
 
 @media (max-width:1700px){
   .homeblock2.mat-card {
