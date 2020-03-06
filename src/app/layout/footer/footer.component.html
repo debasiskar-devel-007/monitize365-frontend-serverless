@@ -1,7 +1,7 @@
 <span class="scroll-to-top" [ngClass]="{ 'show-scrollTop': windowScrolled }">
   <a (click)="scrollToTop()">
     <!-- <mat-icon aria-hidden="false">keyboard_arrow_up</mat-icon> -->
-    <img src="../../../assets/images/scroll-to-top-icon.png">
+    <img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/scroll-to-top-icon.png">
   </a>
 </span>
   
@@ -10,12 +10,13 @@
       <mat-card-content class="mainfooter_block1"> 
         <mat-card-subtitle class="mainfooter_block1_con2">     
           <span class="mainfooter_block1_con2_top">
-            <img src="../../../assets/images/logo.png">  
+            <img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/logo.png">  
             <mat-nav-list>    
               <mat-list-item [ngClass]="router.url === '/home' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/home']">Home</a></mat-list-item>
               <mat-list-item [ngClass]="router.url === '/geo-fence' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/geo-fence']">GeoFence</a></mat-list-item>
               <mat-list-item [ngClass]="router.url === '/services' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/services']">services</a></mat-list-item>          
               <mat-list-item [ngClass]="router.url === '/marketing-data' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/marketing-data']">marketing data</a></mat-list-item>
+              <mat-list-item [ngClass]="router.url === '/team' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/team']">team</a></mat-list-item>
               <mat-list-item [ngClass]="router.url === '/contact-us' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/contact-us']">Contact Us</a></mat-list-item>
             </mat-nav-list>
           </span>

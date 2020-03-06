@@ -5,60 +5,60 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 
 @font-face {
   font-family: 'RalewayExtraBold';
-  src: url('assets/fonts/Raleway-ExtraBold.eot');
-  src: url('assets/fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
-      url('assets/fonts/Raleway-ExtraBold.woff2') format('woff2'),
-      url('assets/fonts/Raleway-ExtraBold.woff') format('woff'),
-      url('assets/fonts/Raleway-ExtraBold.ttf') format('truetype'),
-      url('assets/fonts/Raleway-ExtraBold.svg#assets/fonts/Raleway-ExtraBold') format('svg');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.eot');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.woff2') format('woff2'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.woff') format('woff'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.ttf') format('truetype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.svg#http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold') format('svg');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RalewayBold';
-  src: url('assets/fonts/Raleway-Bold.eot');
-  src: url('assets/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
-      url('assets/fonts/Raleway-Bold.woff2') format('woff2'),
-      url('assets/fonts/Raleway-Bold.woff') format('woff'),
-      url('assets/fonts/Raleway-Bold.ttf') format('truetype'),
-      url('assets/fonts/Raleway-Bold.svg#assets/fonts/Raleway-Bold') format('svg');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.eot');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.woff2') format('woff2'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.woff') format('woff'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.ttf') format('truetype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.svg#http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RalewayMedium';
-  src: url('assets/fonts/Raleway-Medium.eot');
-  src: url('assets/fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-      url('assets/fonts/Raleway-Medium.woff2') format('woff2'),
-      url('assets/fonts/Raleway-Medium.woff') format('woff'),
-      url('assets/fonts/Raleway-Medium.ttf') format('truetype'),
-      url('assets/fonts/Raleway-Medium.svg#assets/fonts/Raleway-Medium') format('svg');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.eot');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.woff2') format('woff2'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.woff') format('woff'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.ttf') format('truetype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.svg#http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RalewaySemiBold';
-  src: url('assets/fonts/Raleway-SemiBold.eot');
-  src: url('assets/fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('assets/fonts/Raleway-SemiBold.woff2') format('woff2'),
-      url('assets/fonts/Raleway-SemiBold.woff') format('woff'),
-      url('assets/fonts/Raleway-SemiBold.ttf') format('truetype'),
-      url('assets/fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.eot');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.woff2') format('woff2'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.woff') format('woff'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.ttf') format('truetype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'OpenSansBold';
-  src: url('assets/fonts/OpenSans-Bold.eot');
-  src: url('assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-      url('assets/fonts/OpenSans-Bold.woff2') format('woff2'),
-      url('assets/fonts/OpenSans-Bold.woff') format('woff'),
-      url('assets/fonts/OpenSans-Bold.ttf') format('truetype'),
-      url('assets/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.eot');
+  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.woff') format('woff'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.ttf') format('truetype'),
+      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -241,20 +241,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
    .text-gradient-green {text-transform: capitalize;background: linear-gradient(to bottom,rgba(144,221,26,1) 0%, rgba(144,221,26,1) 50%, rgba(104,161,17,1) 52%, rgba(139,214,25,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
    .text-gradient-yellow {text-transform: capitalize;background: linear-gradient(to bottom,rgba(237,216,14,1) 0%, rgba(237,216,14,1) 50%, rgba(181,164,8,1) 52%, rgba(225,205,11,1) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 
-   .box-gradient-yellow{color:var(--color-txt) !important;text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254,230,34,1)), color-stop(100%, rgba(253,190,0,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* ie10+ */
-    background: linear-gradient(180deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* w3c */
+   .box-gradient-yellow{color:var(--color-txt) !important;text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254, 224, 30,1)), color-stop(100%, rgba(253,190,0,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee622', endColorstr='#fdbe00',GradientType=0 ); /* ie6-9 */}
 
-    .box-gradient-orange{color:var(--color-txt);text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(243,162,29,1) 0%, rgba(254,80,52,1) 100%); /* ff3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(243,162,29,1)), color-stop(100%, rgba(254,80,52,1))); /* safari4+,chrome */
-      background: -webkit-linear-gradient(270deg, rgba(243,162,29,1) 0%, rgba(254,80,52,1) 100%); /* safari5.1+,chrome10+ */
-      background: -o-linear-gradient(270deg, rgba(243,162,29,1) 0%, rgba(254,80,52,1) 100%); /* opera 11.10+ */
-      background: -ms-linear-gradient(270deg, rgba(243,162,29,1) 0%, rgba(254,80,52,1) 100%); /* ie10+ */
-      background: linear-gradient(180deg, rgba(243,162,29,1) 0%, rgba(254,80,52,1) 100%); /* w3c */
+    .box-gradient-orange{color:var(--color-txt);text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(249, 145, 32) 0%, rgba(254,80,52,1) 100%); /* ff3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(249, 145, 32)), color-stop(100%, rgba(254,80,52,1))); /* safari4+,chrome */
+      background: -webkit-linear-gradient(270deg, rgba(249, 145, 32) 0%, rgba(254,80,52,1) 100%); /* safari5.1+,chrome10+ */
+      background: -o-linear-gradient(270deg, rgba(249, 145, 32) 0%, rgba(254,80,52,1) 100%); /* opera 11.10+ */
+      background: -ms-linear-gradient(270deg, rgba(249, 145, 32) 0%, rgba(254,80,52,1) 100%); /* ie10+ */
+      background: linear-gradient(180deg, rgba(249, 145, 32) 0%, rgba(254,80,52,1) 100%); /* w3c */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a21d', endColorstr='#fe5034',GradientType=0 ); /* ie6-9 */}
 
       .box-gradient-red{color:var(--color-txt);text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(223,81,113,1) 0%, rgba(239,43,97,1) 100%); /* ff3.6+ */
@@ -375,6 +375,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     .mainwrappercontent{width:96%; margin: 0 auto;}
   }
   
+  .homeblock5.pTB .tabwrapper .mat-tab-label .mat-tab-label-content .mat-card-title2{
+    --max-font: 26;
+    --min-font: 18;
+    font-family: var(--main-font);
+    font-size: var(--responsive);
+    text-transform: capitalize;
+    line-height: 32px;
+    color: var(--main-txt-color);
+    margin-bottom: 20px !important;
+  }
  
     
   /******** LOADER ********/
@@ -406,6 +416,73 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
   .sideblock-row-gen{-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;-ms-flex-order:2;-webkit-order:2;order:2}
 
 
+
+
+  .homeblock5 .tabwrapper{position: relative;background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabtop.jpg) no-repeat top center; background-size: 100%;}
+  .homeblock5 .tabwrapper .mat-tab-label { height: auto;flex: 1;width: 100%;padding: 0;}
+  .homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;    
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.homeblock5 .tabwrapper .mat-tab-label{
+  margin-bottom: 78px;
+}
+
+.homeblock5 .tabwrapper .mat-tab-label.mat-ripple {
+  overflow: inherit;
+}
+.mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: transparent !important;
+}
+.mat-tab-header {
+  border-bottom: none;
+}
+.homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content .mat-card-title{flex: 1 1 100%;}
+.homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content img{width: auto;}
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1){
+  color:var(--color-txt);text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(249, 145, 32, 1) 0%, rgba(254,80,52,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(249, 145, 32, 1)), color-stop(100%, rgba(254,80,52,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(270deg, rgba(249, 145, 32, 1) 0%, rgba(254,80,52,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(270deg, rgba(249, 145, 32, 1) 0%, rgba(254,80,52,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(270deg, rgba(249, 145, 32, 1) 0%, rgba(254,80,52,1) 100%); /* ie10+ */
+  background: linear-gradient(180deg, rgba(249, 145, 32, 1) 0%, rgba(254,80,52,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a21d', endColorstr='#fe5034',GradientType=0 ); /* ie6-9 */opacity: 1;
+}
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(2){
+  color:var(--color-txt) !important;text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254, 224, 30,1)), color-stop(100%, rgba(253,190,0,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, rgba(254, 224, 30,1) 0%, rgba(253,190,0,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee622', endColorstr='#fdbe00',GradientType=0 ); /* ie6-9 */opacity: 1;
+}
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(3){
+  color:var(--color-txt);text-transform: uppercase;background: -moz-linear-gradient(270deg, rgba(123,189,62,1) 0%, rgba(17,163,72,1) 100%); /* ff3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(123,189,62,1)), color-stop(100%, rgba(17,163,72,1))); /* safari4+,chrome */
+          background: -webkit-linear-gradient(270deg, rgba(123,189,62,1) 0%, rgba(17,163,72,1) 100%); /* safari5.1+,chrome10+ */
+          background: -o-linear-gradient(270deg, rgba(123,189,62,1) 0%, rgba(17,163,72,1) 100%); /* opera 11.10+ */
+          background: -ms-linear-gradient(270deg, rgba(123,189,62,1) 0%, rgba(17,163,72,1) 100%); /* ie10+ */
+          background: linear-gradient(180deg, rgba(123,189,62,1) 0%, rgba(17,163,72,1) 100%); /* w3c */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bbd3e', endColorstr='#11a348',GradientType=0 ); /* ie6-9 */opacity: 1;
+}
+
+.homeblock5 .tabwrapper .mat-tab-header{margin-top: 85px;}
+
+.homeblock5 .mat-tab-body-wrapper{margin-top: 0px;background: -moz-linear-gradient(90deg, rgba(255,255,255,0.15) 0%, rgba(221,232,237,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(221,232,237,1)), color-stop(100%, rgba(255,255,255,0.15))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.15) 0%, rgba(221,232,237,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(90deg, rgba(255,255,255,0.15) 0%, rgba(221,232,237,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(90deg, rgba(255,255,255,0.15) 0%, rgba(221,232,237,1) 100%); /* ie10+ */
+  background: linear-gradient(0deg, rgba(255,255,255,0.15) 0%, rgba(221,232,237,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dde8ed', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */}
+  .homeblock5 .mat-tab-body-wrapper .mat-card-title{margin-top: 30px;}
+
 /* .generalmodalcls .mat-dialog-content{margin:0!important;padding:0!important}
 .generalmodalcls .modal-content{background:#f9f9f9;position:relative;z-index:20;border-radius:0;color:#000;box-shadow:none;position:relative;-ms-flex:1 1 auto;flex:1 1 auto;padding:15px;-moz-box-shadow:inset 0 0 10px #000;-webkit-box-shadow:inset 0 0 10px #000;box-shadow:inset 0 0 10px #000}
 .mat-dialog-container{width:100%;box-shadow:0 3px 7px rgba(0,0,0,.25);box-sizing:border-box;transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;padding:10px!important;border-radius:0!important;height:inherit!important;margin-top:20px;margin-bottom:20px}
@@ -420,3 +497,55 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 .generalmodalcls .mat-form-field-appearance-legacy .mat-form-field-infix input{height:50px!important}
 .generalmodalcls .mat-form-field{display:block!important}
 .generalmodalcls .mat-form-field-flex{display:block!important;border:none!important;padding:0!important} */
+
+
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(2).mat-tab-label-active:after{
+  content: '';
+  position: absolute;
+  bottom: -73px;
+  width: 100%;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 270px;
+  border-right-width: 270px;
+  border-top: 74px solid #fdbe00;
+  z-index: 999;
+}
+
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1).mat-tab-label-active:after{
+  content: '';
+  position: absolute;
+  bottom: -73px;
+  width: 100%;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 270px;
+  border-right-width: 270px;
+  border-top: 74px solid #fe5333;
+  z-index: 999;
+}
+
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(3).mat-tab-label-active:after{
+  content: '';
+  position: absolute;
+  bottom: -73px;
+  width: 100%;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 270px;
+  border-right-width: 270px;
+  border-top: 74px solid #11a348;
+  z-index: 999;
+}
+
+.matbuttoncls{
+  padding: 20px 70px !important;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(247,203,0,1)), to(rgba(255,192,0,1)));
+  background: linear-gradient(90deg, rgba(247,203,0,1) 0%, rgba(255,192,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7cb00', endColorstr='#ffc000',GradientType=1 );
+  border-radius: 50px !important;
+  font-family: var(--main-bold-font);
+  text-transform: uppercase;
+  font-size: 18px;
+  color:#171a1d;
+}

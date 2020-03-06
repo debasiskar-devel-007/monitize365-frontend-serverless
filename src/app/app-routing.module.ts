@@ -6,6 +6,7 @@ import { GeoFenceComponent } from './component/geo-fence/geo-fence.component';
 import { ServicesComponent } from './component/services/services.component';
 import { MarketingDataComponent } from './component/marketing-data/marketing-data.component';
 import { ContactUsComponent } from './component/contact-us/contact-us.component';
+import { TeamComponent } from './component/team/team.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'marketing-data', component: MarketingDataComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'team', component: TeamComponent },
 ];
 
 @NgModule({

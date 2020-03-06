@@ -3,10 +3,10 @@
   :host /deep/ .mat-card-subtitle:not(:first-child), .mat-card-title:not(:first-child) {margin-top: 0;}
   :host /deep/ .mat-card-subtitle {margin-bottom: 0 !important;}
 
-.homebannerbg{background:url(../../../assets/images/homebannerbg.jpg) no-repeat center center #fac223;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 750px;}
+.homebannerbg{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homebannerbg.jpg) no-repeat center center #fac223;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 750px;}
 .homebanner-img-wrapper{width: 553px; height: 702px; display: block;margin-top: 84px;}
 .homebanner-img-wrapper img{width: auto !important;position: relative;}
-.homebanner-img-wrapper img::after{content: '';position: absolute;bottom: 0;right: 0;height: 500px;width: 400px;display: block;z-index: 99;background: url(../../../assets/images/homebanner-img-shadow.png) no-repeat;}
+.homebanner-img-wrapper img::after{content: '';position: absolute;bottom: 0;right: 0;height: 500px;width: 400px;display: block;z-index: 99;background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homebanner-img-shadow.png) no-repeat;}
 
 .homebannerbg .mainwrappercontent {height: 100%;}
 .homebannerbg .flex-row-gen{height: 100%;align-items: center;justify-content: space-between;}
@@ -15,7 +15,7 @@
 .middlesectiontxt .mat-card-title{text-align: center;}
 .middlesectiontxt p{text-align: center;}
 
-.homeblock1{background: url(../../../assets/images/homeblock1bg-leftimg.png) left bottom no-repeat, url(../../../assets/images/homeblock1bg-rightimg.png) right bottom no-repeat;}
+.homeblock1{background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock1bg-leftimg.png) left bottom no-repeat, url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock1bg-rightimg.png) right bottom no-repeat;}
 .homeblock1.pTB p{width: auto;}
 
 
@@ -24,7 +24,7 @@
 .homeblock2.pTB p{color:var(--color-txt)}
 
 .homeblock2.mat-card {
-  background: url(../../../assets/images/homeblock2bg.jpg) top right 35%/cover no-repeat;
+  background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock2bg.jpg) top right 35%/cover no-repeat;
   padding: 0;
   border-radius: var(--border-radius-0);
   min-height: 1px;
@@ -43,7 +43,7 @@
 .homeblock4.pTB .mat-card-title1{color:var(--color-txt)}
 .homeblock4.pTB p{width: auto;}
 .homeblock4.mat-card {
-  background: url(../../../assets/images/homeblock4bg.jpg) top right 35%/cover no-repeat;
+  background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock4bg.jpg) top right 35%/cover no-repeat;
   padding: 0;
   border-radius: var(--border-radius-0);
   min-height: 1px;
@@ -68,15 +68,89 @@
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8){order:8;z-index: 9;}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8) .sideblock-gen{box-shadow: none;}
 
-:host /deep/ .homeblock4.pTB .mat-list-base{position: relative;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{position: relative;}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item::before {
+    content: '';
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock4shadow.png) repeat-x;
+    height: 17px;
+}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item::after {
   content: '';
   position: absolute;
-  top: 16%;
-  left: 0;
-  width: 100%;
-  z-index: 999999999;
+  top: 84px;
+  left: 50%;
+  width: 43px;
+  z-index: 99999;
+  background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock4shadowtoparrow.png) no-repeat;
+  height: 32px;
+  opacity: 1;
+  transform: translateX(-50%);
 }
+
+.homeblock5.pTB p{width: auto;}
+.homeblock5 .mat-tab-group-wrapper{margin-top: 40px;}
+.homeblock5 .mat-tab-label .mat-tab-label-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  width: 100%;
+}
+/* .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label{position: relative;}
+.homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label.mat-tab-label-active::after{
+  content:'';
+  position: absolute;
+  bottom:0;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-top: 100px solid #fdbe00;
+  z-index: 99999999;
+} */
+
+.homeblock5.pTB .tabwrapper .mat-tab-labels .mat-card-title2 {
+  --max-font: 30;
+  --min-font: 18;
+  font-family: var(--main-bold-font);
+  font-size: var(--responsive);
+  text-transform: capitalize;
+  color: var(--main-txt-color);
+  line-height: 32px;
+  flex: 1 1 100%;
+}
+
+.tabwrapper .mat-tab-label .box-gradient-yellow{width: 100%;}
+
+.triangle-down {
+  width: 10%;
+  height: 0;
+  padding-left:10%;
+  padding-top: 10%;
+  overflow: hidden;
+  
+}
+.triangle-down:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left:-500px;
+  margin-top:-500px;
+  
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-top: 500px solid #4679BD;
+}
+.homeblock5 .mat-list{display: flex;align-items: stretch;justify-content: space-between;width: 96%;padding: 20px;background: #fff;margin: 0 auto; margin-top: 20px; box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.5)}
+.homeblock5 .mat-list .mat-list-item{flex: 1 1 20%;height: 343px;overflow: hidden;}
+.homeblock5 .mat-list .mat-list-item img{width: auto; max-width: 100%;}
 
 @media (max-width:1700px){
   .homeblock2.mat-card {
