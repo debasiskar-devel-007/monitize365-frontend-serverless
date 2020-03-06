@@ -1,12 +1,50 @@
-/* .homebannerbg{} */
 
-.homebannerbg{background:url(../../../assets/images/homebannerbg.jpg) no-repeat center center #fac223;background-size: cover;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding-top:15px!important;height: 100vh;}
-/* .homebannerbg_wrapper{margin:0 auto!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;width:1460px;display:block!important;margin-bottom:0!important} */
+  :host /deep/ .mat-card-title {margin-bottom: 0 !important;}
+  :host /deep/ .mat-card-subtitle:not(:first-child), .mat-card-title:not(:first-child) {margin-top: 0;}
+  :host /deep/ .mat-card-subtitle {margin-bottom: 0 !important;}
 
-.homebanner-img-wrapper{width: 655px; height: 708px; overflow: hidden;display: block;}
-.homebanner-img-wrapper img{width: 100%;}
+.homebannerbg{background:url(../../../assets/images/homebannerbg.jpg) no-repeat center center #fac223;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 750px;}
+.homebanner-img-wrapper{width: 553px; height: 702px; display: block;margin-top: 84px;}
+.homebanner-img-wrapper img{width: auto !important;position: relative;}
+.homebanner-img-wrapper img::after{content: '';position: absolute;bottom: 0;right: 0;height: 500px;width: 400px;display: block;z-index: 99;background: url(../../../assets/images/homebanner-img-shadow.png) no-repeat;}
 
 .homebannerbg .mainwrappercontent {height: 100%;}
-.homebannerbg .flex-row-gen{    height: 100%;align-items: center;}
-.homebannerbg .main-row-gen {align-items: center;padding-top: 84px;}
-.mat-card-title{}
+.homebannerbg .flex-row-gen{height: 100%;align-items: center;justify-content: space-between;}
+.homebannerbg .main-row-gen {align-items: center;}
+
+.middlesectiontxt .mat-card-title{text-align: center;}
+.middlesectiontxt p{text-align: center;}
+
+.homeblock1{background: url(../../../assets/images/homeblock1bg-leftimg.png) left bottom no-repeat, url(../../../assets/images/homeblock1bg-rightimg.png) right bottom no-repeat;}
+.homeblock1.pTB p{width: auto;}
+
+
+.homeblock2.pTB .mat-card-title1{color:var(--color6-txt)}
+.homeblock2.pTB .mat-card-title3{color:var(--color3-txt)}
+.homeblock2.pTB p{color:var(--color-txt)}
+
+.homeblock2.mat-card {
+  background: url(../../../assets/images/homeblock2bg.jpg) top right 35%/cover no-repeat;
+  padding: 0;
+  border-radius: var(--border-radius-0);
+  min-height: 1px;
+}
+@media (max-width:1700px){
+  .homeblock2.mat-card {
+    background-position: top right 40%!important;
+  }
+}
+@media (max-width:1199px){
+  .homesection2wrapper.mat-card {
+    min-height: inherit;
+    height: auto;
+    padding-top: 70%!important;
+    background-size: 198%!important;
+    background-repeat: no-repeat;
+    background-color: #020e27;
+    padding-bottom: 25px!important;
+    background-position: top right 0!important;
+  }
+}
+  
+.homeblock3.pTB p{width: auto;}
