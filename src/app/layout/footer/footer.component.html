@@ -1,36 +1,36 @@
 <span class="scroll-to-top" [ngClass]="{ 'show-scrollTop': windowScrolled }">
-    <a (click)="scrollToTop()">
-      <!-- <mat-icon aria-hidden="false">keyboard_arrow_up</mat-icon> -->
-      <img src="https://all-frontend-assets.s3.amazonaws.com/helios/images/scroll-to-top-icon.png">
-    </a>
-  </span>
-    
-    <mat-card class="mainfooter">  
-      <mat-card-content class="mainfooter_wrapper"> 
-        <mat-card-content class="mainfooter_block1"> 
-          <mat-card-subtitle class="mainfooter_block1_con2">     
-            <span class="mainfooter_block1_con2_top">
-              <img src="../../../assets/images/logo.png">  
-              <mat-nav-list>    
-                <mat-list-item [ngClass]="router.url === '/home' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/home']">Home</a></mat-list-item>
-                <mat-list-item [ngClass]="router.url === '/geo-fence' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/geo-fence']">GeoFence</a></mat-list-item>
-                <mat-list-item [ngClass]="router.url === '/services' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/services']">services</a></mat-list-item>          
-                <mat-list-item [ngClass]="router.url === '/marketing-data' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/marketing-data']">marketing data</a></mat-list-item>
-                <mat-list-item [ngClass]="router.url === '/contact-us' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/contact-us']">Contact Us</a></mat-list-item>
-              </mat-nav-list>
-            </span>
-            
-          </mat-card-subtitle>
-         
-        </mat-card-content>
-      </mat-card-content>
-  </mat-card>
-  <mat-card class="mainfooterbottom">
-      <mat-card-content class="mainfooter_wrapper">
-          <span class="mainfooter_block2">
-            <p>Copyright © 2019 Monetize365. All Rights Reserved.</p>
-              <!-- <a>Copyright © 2020 Helios Medical Marketing. All rights reserved. | <a (click)="Commingsoondialog()">Privacy Policy</a> . <a (click)="Commingsoondialog()">Terms & Conditions</a> . <a (click)="Commingsoondialog()">Ad Policies</a> . <a (click)="Commingsoondialog()">Banner Ad Formats</a></p> -->
+  <a (click)="scrollToTop()">
+    <!-- <mat-icon aria-hidden="false">keyboard_arrow_up</mat-icon> -->
+    <img src="../../../assets/images/scroll-to-top-icon.png">
+  </a>
+</span>
+  
+  <mat-card class="mainfooter">  
+    <mat-card-content class="mainfooter_wrapper"> 
+      <mat-card-content class="mainfooter_block1"> 
+        <mat-card-subtitle class="mainfooter_block1_con2">     
+          <span class="mainfooter_block1_con2_top">
+            <img src="../../../assets/images/logo.png">  
+            <mat-nav-list>    
+              <mat-list-item [ngClass]="router.url === '/home' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/home']">Home</a></mat-list-item>
+              <mat-list-item [ngClass]="router.url === '/geo-fence' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/geo-fence']">GeoFence</a></mat-list-item>
+              <mat-list-item [ngClass]="router.url === '/services' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/services']">services</a></mat-list-item>          
+              <mat-list-item [ngClass]="router.url === '/marketing-data' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/marketing-data']">marketing data</a></mat-list-item>
+              <mat-list-item [ngClass]="router.url === '/contact-us' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/contact-us']">Contact Us</a></mat-list-item>
+            </mat-nav-list>
           </span>
-        </mat-card-content>
-  </mat-card>
-    
+          
+        </mat-card-subtitle>
+       
+      </mat-card-content>
+    </mat-card-content>
+</mat-card>
+<mat-card class="mainfooterbottom">
+    <mat-card-content class="mainfooter_wrapper">
+        <span class="mainfooter_block2">
+          <p>Copyright © 2019 Monetize365. All Rights Reserved.</p>
+            <!-- <a>Copyright © 2020 Helios Medical Marketing. All rights reserved. | <a (click)="Commingsoondialog()">Privacy Policy</a> . <a (click)="Commingsoondialog()">Terms & Conditions</a> . <a (click)="Commingsoondialog()">Ad Policies</a> . <a (click)="Commingsoondialog()">Banner Ad Formats</a></p> -->
+        </span>
+      </mat-card-content>
+</mat-card>
+  

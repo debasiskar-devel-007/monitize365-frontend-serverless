@@ -29,6 +29,16 @@
   border-radius: var(--border-radius-0);
   min-height: 1px;
 }
+.homeblock3.pTB p{width: auto;}
+.homeblock3.pTB .sideblock-row-gen .mat-card-title3{text-align: left;font-family: VAR(--main-font);margin-top: 0px !important;margin-left: 15px;}
+.homeblock3.pTB .mat-list-base .mat-list-item, .homeblock3.pTB .mat-list-base .mat-list-option{height: auto;width: 33.33%;padding-left: 50px;padding-right: 50px;}
+:host /deep/ .mat-list-base .mat-list-item .mat-list-item-content,  :host /deep/ .mat-list-base .mat-list-option .mat-list-item-content{padding: 0;}
+:host /deep/ .homeblock3.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: space-between;}
+.homeblock3.pTB .flex-row-gen .main-row-gen .flex-row-gen{justify-content: center;}
+.homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content p{color: var(--color7-txt);}
+.homeblock3.pTB .mat-list-base .mat-list-item{position: relative;}
+.homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content{margin-bottom: 0;}
+
 @media (max-width:1700px){
   .homeblock2.mat-card {
     background-position: top right 40%!important;
@@ -47,4 +57,3 @@
   }
 }
   
-.homeblock3.pTB p{width: auto;}
