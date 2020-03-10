@@ -92,6 +92,8 @@
   transform: translateX(-50%);
 }
 
+
+
 .homeblock5.pTB p{width: auto;}
 .homeblock5 .mat-tab-group-wrapper{margin-top: 40px;}
 .homeblock5 .mat-tab-label .mat-tab-label-content {
@@ -151,6 +153,8 @@
 .homeblock5 .mat-list{display: flex;align-items: stretch;justify-content: space-between;width: 96%;padding: 20px;background: #fff;margin: 0 auto; margin-top: 20px; box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.5)}
 .homeblock5 .mat-list .mat-list-item{flex: 1 1 20%;height: 343px;overflow: hidden;}
 .homeblock5 .mat-list .mat-list-item img{width: auto; max-width: 100%;}
+
+.homeblock5 .matbuttoncls {margin-top: 20px !important;}
 
 @media (max-width:1700px){
   .homeblock2.mat-card {

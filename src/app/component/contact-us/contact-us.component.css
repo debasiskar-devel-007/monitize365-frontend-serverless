@@ -1,0 +1,23 @@
+
+.contactusbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/contactusbannerbg.jpg) no-repeat center center #f3d364;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height: 582px;}
+
+/*--contact us css--*/
+.contactusformblock .flex-row-gen .main-row-gen{width: 80% !important;}
+.contactusformblock .flex-row-gen .sideblock-gen{width: 40% !important;}
+.contactusformblock .flex-row-gen .main-row-gen .mat-form-field{width: 49%;margin-left: 1%;margin-right: 1%;}
+.contactusformblock .flex-row-gen .main-row-gen .mat-form-field.messagecls{width: 100%;margin-left: 0;}
+.contactusformblock .flex-row-gen .main-row-gen .mat-form-field.capturecls{width: 100%;margin-left: 0;}
+.contactusformblock .flex-row-gen .main-row-gen .mat-form-field:nth-child(odd){margin-left: 0;}
+.contactusformblock .flex-row-gen .main-row-gen .mat-form-field:nth-child(even){margin-right: 0;}
+.contactusformblock .mat-form-field-appearance-fill .mat-form-field-underline::before{background-color: none;}
+.contactusformblock img{border: 1px solid #c6cfcf !important;border-radius: 0px !important;}
+.contactusformblock .matbuttoncls {margin-top: 20px !important;}
+.contactusformblock p{margin-top: 0!important;margin-bottom: 24px!important;}
+.contactusformblock p a{color:var(--color9-txt);}
+
+.contactusformblock .flex-row-gen .sideblock-gen{width: 40% !important;margin-left: 18px;}
+.mapwrapper{background: #fff;padding: 10px;box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.2);overflow:hidden;width: 100%;position: relative;}
+
+@media (max-width: 991px){
+.contactusbg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#f3d364;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+}
