@@ -9,7 +9,7 @@ import { MetaService } from '@ngx-meta/core';
 export class HomeComponent implements OnInit {
 
   constructor(private readonly meta: MetaService) { 
-
+    console.warn("home");
     this.meta.setTitle('Accurate and Affordable GEO Fencing Services');
     this.meta.setTag('og:description', 'Monitize365 Residential and Business level GEO-fencing in the mobile display marketplace uses our new micro-targeting technology to pinpoint potential customers with unprecedented accuracy and efficiency.');
     this.meta.setTag('twitter:description', 'Monitize365 Residential and Business level GEO-fencing in the mobile display marketplace uses our new micro-targeting technology to pinpoint potential customers with unprecedented accuracy and efficiency.');

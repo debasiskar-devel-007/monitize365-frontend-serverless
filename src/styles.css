@@ -5,60 +5,60 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 
 @font-face {
   font-family: 'RalewayExtraBold';
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.eot');
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.woff2') format('woff2'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.woff') format('woff'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.ttf') format('truetype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.svg#http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold') format('svg');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.eot');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.woff2') format('woff2'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.woff') format('woff'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.ttf') format('truetype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold.svg#https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-ExtraBold') format('svg');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RalewayBold';
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.eot');
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.woff2') format('woff2'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.woff') format('woff'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.ttf') format('truetype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.svg#http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold') format('svg');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.eot');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.woff2') format('woff2'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.woff') format('woff'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.ttf') format('truetype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold.svg#https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RalewayMedium';
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.eot');
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.woff2') format('woff2'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.woff') format('woff'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.ttf') format('truetype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.svg#http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium') format('svg');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.eot');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.woff2') format('woff2'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.woff') format('woff'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.ttf') format('truetype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium.svg#https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RalewaySemiBold';
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.eot');
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.woff2') format('woff2'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.woff') format('woff'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.ttf') format('truetype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.eot');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.woff2') format('woff2'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.woff') format('woff'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.ttf') format('truetype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'OpenSansBold';
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.eot');
-  src: url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.woff2') format('woff2'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.woff') format('woff'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.ttf') format('truetype'),
-      url('http://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.eot');
+  src: url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.woff') format('woff'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.ttf') format('truetype'),
+      url('https://all-frontend-assets.s3.amazonaws.com/monetize365/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -418,7 +418,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 
 
 
-  .homeblock5 .tabwrapper{position: relative;background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabtop.jpg) no-repeat top center; background-size: 100%;}
+  .homeblock5 .tabwrapper{position: relative;background: url(https://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabtop.jpg) no-repeat top center; background-size: 100%;}
   .homeblock5 .tabwrapper .mat-tab-label { height: auto;flex: 1;width: 100%;padding: 0;}
   .homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content {
     display: inline-flex;
