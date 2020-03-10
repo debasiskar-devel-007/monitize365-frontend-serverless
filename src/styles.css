@@ -150,9 +150,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     --body-bg:               #fff;
     --text-color:            var(--gray-dark);
     --link-color:            var(--brand-primary);
-    --link-hover-color:#e02712;
+    --link-hover-color:       #e02712;
     --link-hover-decoration: underline;
-    }
+  }
   
   * {
   
@@ -274,22 +274,19 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     line-height: 36px;
   }
 
-  
-  
   @media (min-width: 1200px) {
     h1,
     p {
       font-size: calc(var(--max-font) * 1px);
     }
   }
-  
+
   @media (max-width: 420px) {
     h1,
     p {
       font-size: calc(var(--min-font) * 1px);
     }
   }
-
 
   .mat-card-title110 {
     --max-font: 110;
