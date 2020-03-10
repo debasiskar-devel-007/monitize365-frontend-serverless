@@ -1,0 +1,104 @@
+
+.teambg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/teambannerbg.jpg) no-repeat center center #f3d364;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height: 582px;}
+
+.innerpagebannerbg.teambg .mat-card-title {color: var(--color10-txt);}
+.innerpagebannerbg.teambg .mat-card-subtitle {color: var(--color10-txt);}
+
+.teamblock1.pTB p{width: auto;}
+
+.teamblock1list{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex!important;-webkit-box-orient: horizontal;-moz-box-orient: horizontal;-webkit-box-direction: normal;-moz-box-direction: normal; -webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;width:100%;flex-wrap:wrap;justify-content: center;}
+.teamblock1list .mat-list-item{
+    width: 31.33%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c9cdce;
+    height: auto;
+    margin-top: 10% !important;
+    margin: 1%;
+}
+
+
+.teamblock1imgwrapper {
+    position: relative;
+    height: 321px;
+    width: 282px;    
+    margin: 0 auto;
+    margin-top: -37%;
+  }
+  
+ .teamblock1img {
+    width: 95%;
+    height: 95%;
+    background: #dce2e4;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position:relative;
+    z-index: 99;
+  }
+
+  .teamblock1img img{
+    object-fit: cover;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+  }
+  
+  .teamblock1shadow {
+    position: absolute;
+    z-index: 9;
+    content: "";
+    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/teamblock1imgshadow.png) no-repeat center center;
+    height: 321px;
+    width:  282px;
+    left: -7px;
+    top: -8px;
+  }
+  
+  .teamblock1.pTB .teamblock1list .mat-card-title {
+    --max-font: 28;
+    --min-font: 18;
+    font-family: var(--main-bold-font);
+    font-size: var(--responsive);
+    text-transform:uppercase;
+    color:var(--gray-base);
+    line-height: 32px;
+  }
+
+  .teamblock1.pTB .teamblock1list p{
+      text-transform:capitalize;    
+      --max-font: 17;
+  }
+
+  :host /deep/ .teamblock1list .mat-list-item .mat-list-item-content{flex-wrap: wrap;}
+  .teamblock1content{    
+    background: #fff;
+    padding:6px;
+    border-radius:10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 100%;
+  }
+
+  .teamblock1contentinner{
+    background: -moz-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254,230,34,1)), color-stop(100%, rgba(253,190,0,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, rgba(254,230,34,1) 0%, rgba(253,190,0,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee622', endColorstr='#fdbe00',GradientType=0 ); /* ie6-9 */
+    padding:19px 10px;
+    border-radius:10px;
+    position:relative;
+    z-index: 99;
+  }
+
+  .teamblock1contentinner .mat-card-content{margin-bottom: 0;}
+  .teamblock1contentinner .mat-card-content p{margin-top: 0 !important;}
+
+
+  @media (max-width: 991px){
+    .teambg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#988bff;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+  }
