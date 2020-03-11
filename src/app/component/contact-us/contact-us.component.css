@@ -13,7 +13,7 @@
 .contactusformblock img{border: 1px solid #c6cfcf !important;border-radius: 0px !important;}
 .contactusformblock .matbuttoncls {margin-top: 20px !important;}
 .contactusformblock p{margin-top: 0!important;margin-bottom: 24px!important;}
-.contactusformblock p a{color:var(--color9-txt);}
+.contactusformblock p a{color:var(--color3-txt);}
 
 .contactusformblock .flex-row-gen .sideblock-gen{width: 40% !important;margin-left: 18px;}
 .mapwrapper{background: #fff;padding: 10px;box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.2);overflow:hidden;width: 100%;position: relative;}
