@@ -13,9 +13,9 @@
 
 .geofenceblock1.pTB p{width: auto;}
 
-.geofenceblock1.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/geofenceblock1bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;height: 367px;}
+.geofenceblock1.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/geofenceblock1bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;}
 
-.geofenceblock2.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/geofenceblock2bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 367px;min-height: 367px;height: inherit;}
+.geofenceblock2.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/geofenceblock2bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;height: inherit;}
 .geofenceblock2 .mat-card-title1 {color: var(--color6-txt);}
 .geofenceblock2.pTB .mat-card-title3 {text-transform: inherit; margin-top: 0px !important;text-align: left;color: var(--color-txt);}
 .geofenceblock2.pTB .mat-list{padding-top: 0px;}
@@ -115,6 +115,20 @@
     border-width: 12px 16px 0 0;
     border-color: #88760a transparent transparent transparent;
     transform: rotate(-90deg);
+}
+
+
+@media (max-width: 1666px){
+    .geofencebg.mat-card {padding: 168px 0 30px!important;min-height: 1px;height: auto;}
+}
+@media (max-width: 1366px){
+    .geofencerightimg {bottom: -30%;width: 540px;}
+    .geofenceblock3.mat-card .mainwrappercontent .flex-row-gen {padding-left: 30%;}
+}
+@media (max-width: 991px){
+.geofencebg.mat-card {
+    padding: 10px 0 10px!important;
+}
 }
 @media (max-width: 991px){
 .geofencebg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#3f92cf;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
