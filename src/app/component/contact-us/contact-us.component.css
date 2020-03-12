@@ -18,6 +18,13 @@
 .contactusformblock .flex-row-gen .sideblock-gen{width: 40% !important;margin-left: 18px;}
 .mapwrapper{background: #fff;padding: 10px;box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.2);overflow:hidden;width: 100%;position: relative;}
 
+@media (max-width: 1666px){
+    .contactusbg.mat-card {padding: 168px 0 30px!important;min-height: 1px;height: auto;}
+}
+@media (max-width: 1366px){
+    .contactusbg.mat-card {padding: 160px 0 30px!important;}
+}
+
 @media (max-width: 991px){
 .contactusbg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#f3d364;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
 }

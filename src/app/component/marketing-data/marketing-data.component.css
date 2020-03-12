@@ -80,97 +80,95 @@
 .marketingdatablock5 .mat-card-title3 {color: var(--color3-txt);}
 .marketingdatablock5 .marketingdatablock5list {padding: 22px;background-color: #e9eff3;margin-top: 25px;border: 1px solid #dbe5e5;}
 
-.marketingdatablock5list .mat-list{
-    
-    column-gap: 18px;    
-    column-rule-style: solid;
-    column-rule-width: 18px;
-    column-rule-color: #ebf0f2;
-    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.png) no-repeat bottom left;background-size: cover;margin:0!important;padding:20px;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;
-    -webkit-columns: 2 200px;
-    -moz-columns: 2 200px;
-    columns: 2 200px;
+.marketingdatablock5list .mat-list{    
+    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.png) no-repeat top;
+    background-size: cover;
+    margin: 0;
+    padding: 16px 16px 16px 16px;
+    /* border: solid 1px #fff !important; */
+    list-style: none;
+    border: 0!important;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    min-height: 1px;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 54px;
+    -webkit-column-gap: 54px;
+    column-gap: 54px;
+    position: relative;
+    /* column-rule-color: #ff0000;
+    column-rule-width: 54px;
+    column-rule-style: dotted; */
 }
-.marketingdatablock5list .main-row-gen{width: 100%;}
-:host /deep/ .marketingdatablock5list .mat-list-base .mat-list-item {
+
+
+.marketingdatablock5list .mat-list.listsbottom{padding-top: 0!important;}
+.marketingdatablock5list .mat-list.liststop .mat-list-item{height: auto;}
+.marketingdatablock5list .mat-list.liststop .mat-list-item{padding:10px 0 0;color:var(--color16-txt);text-transform: uppercase;font-family: var(--main-bold-font);
+    border-top: 1px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;}
+    .marketingdatablock5list .mat-list.liststop .mat-list-item:after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fff;
+    }
+.marketingdatablock5list .mat-list.liststop{padding-bottom: 0px;border-bottom: none !important;margin-bottom: -1px;}
+
+/* .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item:nth-child(2n)::after
+{
+    border-bottom: none;
+} */
+
+
+.marketingdatablock5list .main-row-gen{width: 100%;margin-top: 15px;}
+:host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item {  
     height: auto;
-    padding: 9px 2% 9px 2%;
     color: #c2c9d7;
-    border: 1px solid #fff;
-    margin-right: 10px !important;
-    width: 96%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin-right: auto;
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10px;
 }
 :host /deep/ .marketingdatablock5list .mat-list-base .mat-list-item .mat-list-item-content{justify-content: space-between;padding: 0;}
+:host /deep/ .marketingdatablock5list .mat-list-base.liststop .mat-list-item .mat-list-item-content{justify-content: space-between;padding: 0 3%;}
 
-/* .mat-table .mat-header-row {
-    height: 48px;
-}
-.mat-table .mat-header-cell {
-    padding-left: 16px;
-    padding-right: 40px;
-}
-.mat-table .mat-header-cell:first-of-type {
-    padding-left: 16px;
-}
-.mat-table .mat-header-cell:last-of-type {
-    padding-right: 16px;
-}
-.mat-table .mat-header-cell:last-of-type[mat-sort-header]:not([arrowposition="before"]) {
-    padding-right: 16px;
-}
-.mat-table .mat-header-cell[mat-sort-header][arrowposition="before"] {
-    padding-left: 0px;
-}
-.mat-table .mat-header-cell[mat-sort-header]:not([arrowposition="before"]) {
-    padding-right: 22px;
-}
-.mat-table .mat-header-cell > .mat-sort-header-container {
-    display: inline-flex;
-}
-.mat-table .mat-cell {
-    padding-left: 16px;
-    padding-right: 40px;
-    white-space: nowrap;
-}
-.mat-table .mat-cell:first-of-type {
-    padding-left: 16px;
-    text-align: left;
-}
-.mat-table .mat-cell:last-of-type {
-    padding-right: 16px;
-}
-.mat-table .mat-footer-cell {
-    padding-left: 16px;
-    padding-right: 40px;
-}
-.mat-table .mat-footer-cell:first-of-type {
-    padding-left: 16px;
-}
-.mat-table .mat-footer-cell:last-of-type {
-    padding-right: 16px;
-}
-.mat-table .mat-footer-cell .mat-paginator {
-    margin-left: -16px;
-    margin-right: -16px;
-}
-.mat-column-select {
-    width: 16px;
-}
-.mat-column-select.mat-cell, .mat-column-select.mat-header-cell, .mat-column-select.mat-footer-cell {
-    padding-right: 16px !important;
-    padding-left: 20px;
-}
-.mat-column-select.mat-cell:first-of-type, .mat-column-select.mat-header-cell:first-of-type, .mat-column-select.mat-footer-cell:first-of-type {
-    padding-left: 20px;
-}
-.mat-column-select + .mat-cell, .mat-column-select + .mat-header-cell, .mat-column-select + .mat-footer-cell {
-    padding-left: 0;
-}
-.mat-column-actions.mat-cell {
-    padding-left: 8px !important;
-    padding-right: 32px !important;
-}
-.mat-column-actions.mat-cell:last-of-type {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+/* :host /deep/ .marketingdatablock5list .mat-list-base.listsbottom::after {
+    content:'';
+    width:100%;
+    height:1px;
+    position:absolute;
+    background-color:#fff;
+    bottom:0;
+    left:0;
 } */
+
+
+ :host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+
+@media (max-width: 1666px){
+    .marketingdatablockbg.mat-card {padding: 84px 0 0px!important;min-height: 1px;height: auto;}
+}
+
+@media (max-width: 1366px){
+    .marketingdatablockbg.mat-card {padding: 136px 0 0px!important;}
+    .marketingdatabanner-img-wrapper {width: 315px;height: auto;}
+    .marketingdatabanner-img-wrapper img {max-width: 100%;}
+}
