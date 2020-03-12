@@ -120,12 +120,15 @@
 
 @media (max-width: 1666px){
     .geofencebg.mat-card {padding: 168px 0 30px!important;min-height: 1px;height: auto;}
+    .geofencerightimg {
+        bottom: -47%;
+    }
 }
 @media (max-width: 1366px){
     .geofencerightimg {bottom: -30%;width: 540px;}
     .geofenceblock3.mat-card .mainwrappercontent .flex-row-gen {padding-left: 30%;}
 }
-@media (max-width: 991px){
+@media (max-width: 1199px){
 .geofencebg.mat-card {
     padding: 10px 0 10px!important;
 }
