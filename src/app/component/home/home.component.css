@@ -24,6 +24,7 @@
 .homeblock3.pTB .flex-row-gen .main-row-gen .flex-row-gen{justify-content:center}
 .homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content p{color:var(--color7-txt)}
 .homeblock3.pTB .mat-list-base .mat-list-item{position:relative}
+.homeblock3.pTB .mat-list-base .mat-list-item .flex-row-gen{justify-content: center;}
 .homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content{margin-bottom:0}
 .homeblock4.pTB p{color:var(--color-txt)}
 .homeblock4.pTB .mat-card-title1{color:var(--color-txt)}
