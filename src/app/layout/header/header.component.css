@@ -54,6 +54,8 @@
 .pagelogowrapper {width: 350px;}
 }
 @media screen and (max-width:1199px) {
+.pTB .mat-card-title1 {--max-font: 34;--min-font: 24;line-height: normal;}
+.homemain .mat-nav-list span.menuwrapper {padding-left: 0;}
 .homemain .mat-list-item:first-child {margin-left: 0;}
 .vpheaderwrapper .mat-nav-list .mat-list-item a,.vpheaderwrapper .mat-nav-list .mat-list-item:hover a{font-size:18px}
 .pagelogowrapper{margin-left:10%}

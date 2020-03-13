@@ -1,10 +1,7 @@
 <span class="scroll-to-top" [ngClass]="{ 'show-scrollTop': windowScrolled }">
   <a (click)="scrollToTop()">
-    <!-- <mat-icon aria-hidden="false">keyboard_arrow_up</mat-icon> -->
-    <img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/scroll-to-top-icon.png">
-  </a>
-</span>
-  
+    <img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/scroll-to-top-icon.png"> </a>
+</span>  
   <mat-card class="mainfooter">  
     <mat-card-content class="mainfooter_wrapper"> 
       <mat-card-content class="mainfooter_block1"> 
@@ -19,10 +16,8 @@
               <mat-list-item [ngClass]="router.url === '/team' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/team']">team</a></mat-list-item>
               <mat-list-item [ngClass]="router.url === '/contact-us' ? 'active' : ''"><a mat-menu-item base [routerLink]="['/contact-us']">Contact Us</a></mat-list-item>
             </mat-nav-list>
-          </span>
-          
-        </mat-card-subtitle>
-       
+          </span>          
+        </mat-card-subtitle>       
       </mat-card-content>
     </mat-card-content>
 </mat-card>
@@ -30,7 +25,6 @@
     <mat-card-content class="mainfooter_wrapper">
         <span class="mainfooter_block2">
           <p>Copyright © 2019 Monetize365. All Rights Reserved.</p>
-            <!-- <a>Copyright © 2020 Helios Medical Marketing. All rights reserved. | <a (click)="Commingsoondialog()">Privacy Policy</a> . <a (click)="Commingsoondialog()">Terms & Conditions</a> . <a (click)="Commingsoondialog()">Ad Policies</a> . <a (click)="Commingsoondialog()">Banner Ad Formats</a></p> -->
         </span>
       </mat-card-content>
 </mat-card>

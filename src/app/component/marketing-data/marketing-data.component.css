@@ -1,174 +1,113 @@
-
-.marketingdatablockbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatabannerbg.jpg) no-repeat center center;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height: 582px;}
-.innerpagebannerbg.marketingdatablockbg .mat-card-title {color: var(--color13-txt);}
-.innerpagebannerbg.marketingdatablockbg .mat-card-subtitle {color: var(--color13-txt);}
-
-.marketingdatablockbg .flex-row-gen{justify-content: space-between;}
-.marketingdatabanner-img-wrapper{width: 479px;height: 479px;display: block;margin-top: 22px;}
-.marketingdatabanner-img-wrapper img{width: auto !important;position: relative;}
-
-
-.marketingdatablock1bg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock1bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;}
-.marketingdatablock1bg.pTB p{width: auto;}
-.marketingdatablock1bg .mat-card-title3 {color: var(--color3-txt);}
-
-.marketingdatablock1list{background-color: var(--body-bg); padding: 23px;}
-.marketingdatablock1list .mat-list{display: flex;-webkit-box-align: stretch;align-items: stretch;-webkit-box-pack: center;justify-content: center;flex-wrap: wrap;padding-top: 0;margin-top: 20px;}
-.marketingdatablock1list .mat-list .mat-list-item{flex: 1 1 13.33%;height: auto;padding: 20px;justify-content: center;align-items: center;border: 1px solid #fff;}
-:host /deep/ .marketingdatablock1list .mat-list-base .mat-list-item .mat-list-item-content{justify-content: center;padding: 0;height: 100%;}
-
-.marketingdatablock2.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock2bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;}
-
-.marketingdatablock2 .mat-list .mat-list-item{flex: 1 1 100%;flex-wrap: wrap;height: auto;background-color: var(--body-bg-blue);padding: 15px 10px;margin-bottom:2px;}
-.marketingdatablock2 .mat-card-title1 {color: var(--color14-txt);margin-top: 15px;}
-.marketingdatablock2list{background-color: rgba(0, 0, 0, 0.3);padding: 25px;margin-top: 40px;border-radius: 10px;}
-.marketingdatablock2-img-wrapper{width: 500px;height: auto;}
-.marketingdatablock2-img-wrapper img{width: auto;margin-left: -13%;margin-top: 5%;}
-
-.marketingdatablock2 .mat-card-title2.textinheritcls{text-transform: inherit !important;color:var(--color-txt);font-family: var(--font-family-base-regular);}
-.marketingdatablock2list .mat-card-title2{color:var(--color3-txt);}
-.marketingdatablock2list .bluebg{margin-top: 20px;padding-top: 0;}
-
-:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content{flex-wrap: wrap;}
-:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content .mat-card-content{margin-bottom: 0;}
-:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content .mat-card-title{flex: 1 1 100%;color:var(--color-txt);font-family: var(--main-bold-font);}
-:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content p{margin-top: 0 !important;color:var(--color7-txt);border-left: 4px solid var(--color4-txt); padding-left: 10px;}
-
-.marketingdatablock3.pTB p{width: auto;}
-.marketingdatablock3 .iconcls img{width: auto;}
-.marketingdatablock3 .marketingdatablock3list .mat-list-item{height: auto;border: 1px solid #e1e1e1;}
-.marketingdatablock3 .marketingdatablock3list .mat-list-item .flex-row-gen{align-items: center;}
-.marketingdatablock3 .marketingdatablock3list .mat-card-title1{text-align: left;}
-.marketingdatablock3 .marketingdatablock3list .mat-card-content p{text-align: left;}
-.marketingdatablock3 .marketingdatablock3list .flex-row-gen .main-row-gen{width: 50%;}
-.marketingdatablock3 .marketingdatablock3list .flex-row-gen .sideblock-row-gen{width: 50%;padding: 0 40px;}
-.marketingdatablock3 .marketingdatablock3list .mat-list-item:nth-child(even) .flex-row-gen{flex-direction: row-reverse;}
-
-:host /deep/ .marketingdatablock3list .mat-list-base .mat-list-item .mat-list-item-content{padding: 0;}
-.icontitlecls{display: flex;align-items: center; justify-content: flex-start;}
-.iconcls{margin-right: 20px;}
-.txtcls{border-bottom:2px solid var(--color3-txt);padding-bottom: 8px;text-transform: capitalize;}
-
-
-.marketingdatablock4.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock4bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;}
-.marketingdatablock4listwrapper{background-color: var(--body-bg);padding: 10px;border-radius: 10px; }
-.marketingdatablock4listwrapperinset{background-color: var(--body-bg);border-radius: 10px;overflow: hidden;position: relative;}
-.marketingdatablock4listwrapperinset::before{
-    content:'';
-    box-shadow: 0 0 4px 4px inset rgba(153, 153, 153, 0.8);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+.marketingdatablockbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatabannerbg.jpg) no-repeat center center;background-size:cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height:582px}
+.innerpagebannerbg.marketingdatablockbg .mat-card-title{color:var(--color13-txt)}
+.innerpagebannerbg.marketingdatablockbg .mat-card-subtitle{color:var(--color13-txt)}
+.marketingdatablockbg .flex-row-gen{justify-content:space-between}
+.marketingdatabanner-img-wrapper{width:479px;height:479px;display:block;margin-top:22px}
+.marketingdatabanner-img-wrapper img{width:auto!important;position:relative}
+.marketingdatablock1bg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock1bg.jpg) no-repeat bottom left;background-size:cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px}
+.marketingdatablock1bg.pTB p{width:auto}
+.marketingdatablock1bg .mat-card-title3{color:var(--color3-txt)}
+.marketingdatablock1list{background-color:var(--body-bg);padding:23px}
+.marketingdatablock1list .mat-list{display:flex;-webkit-box-align:stretch;align-items:stretch;-webkit-box-pack:center;justify-content:center;flex-wrap:wrap;padding-top:0;margin-top:20px}
+.marketingdatablock1list .mat-list .mat-list-item{flex:1 1 13.33%;height:auto;padding:20px;justify-content:center;align-items:center;border:1px solid #fff}
+:host /deep/ .marketingdatablock1list .mat-list-base .mat-list-item .mat-list-item-content{justify-content:center;padding:0;height:100%}
+.marketingdatablock2.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock2bg.jpg) no-repeat bottom left;background-size:cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px}
+.marketingdatablock2 .mat-list .mat-list-item{flex:1 1 100%;flex-wrap:wrap;height:auto;background-color:var(--body-bg-blue);padding:15px 10px;margin-bottom:2px}
+.marketingdatablock2 .mat-card-title1{color:var(--color14-txt);margin-top:15px}
+.marketingdatablock2list{background-color:rgba(0,0,0,0.3);padding:25px;margin-top:40px;border-radius:10px}
+.marketingdatablock2-img-wrapper{width:500px;height:auto}
+.marketingdatablock2-img-wrapper img{width:auto;margin-left:-13%;margin-top:5%}
+.marketingdatablock2 .mat-card-title2.textinheritcls{text-transform:inherit!important;color:var(--color-txt);font-family:var(--font-family-base-regular)}
+.marketingdatablock2list .mat-card-title2{color:var(--color3-txt)}
+.marketingdatablock2list .bluebg{margin-top:20px;padding-top:0}
+:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content{flex-wrap:wrap}
+:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content .mat-card-content{margin-bottom:0}
+:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content .mat-card-title{flex:1 1 100%;color:var(--color-txt);font-family:var(--main-bold-font)}
+:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content p{margin-top:0!important;color:var(--color7-txt);border-left:4px solid var(--color4-txt);padding-left:10px}
+.marketingdatablock3.pTB p{width:auto}
+.marketingdatablock3 .iconcls img{width:auto}
+.marketingdatablock3 .marketingdatablock3list .mat-list-item{height:auto;border:1px solid #e1e1e1}
+.marketingdatablock3 .marketingdatablock3list .mat-list-item .flex-row-gen{align-items:center}
+.marketingdatablock3 .marketingdatablock3list .mat-card-title1{text-align:left}
+.marketingdatablock3 .marketingdatablock3list .mat-card-content p{text-align:left}
+.marketingdatablock3 .marketingdatablock3list .flex-row-gen .main-row-gen{width:50%;overflow:hidden}
+.marketingdatablock3 .marketingdatablock3list .flex-row-gen .sideblock-row-gen{width:50%;padding:0 40px}
+.marketingdatablock3 .marketingdatablock3list .mat-list-item:nth-child(even) .flex-row-gen{flex-direction:row-reverse}
+.marketingdatablock3 .mat-card-title3{color:var(--color3-txt)}
+:host /deep/ .marketingdatablock3list .mat-list-base .mat-list-item .mat-list-item-content{padding:0}
+.icontitlecls{display:flex;align-items:center;justify-content:flex-start}
+.iconcls{margin-right:20px}
+.txtcls{border-bottom:2px solid var(--color3-txt);padding-bottom:8px;text-transform:capitalize}
+.marketingdatablock4.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock4bg.jpg) no-repeat bottom left;background-size:cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px}
+.marketingdatablock4listwrapper{background-color:var(--body-bg);padding:10px;border-radius:10px}
+.marketingdatablock4listwrapperinset{background-color:var(--body-bg);border-radius:10px;overflow:hidden;position:relative}
+.marketingdatablock4listwrapperinset::before{content:'';box-shadow:0 0 4px 4px inset rgba(153,153,153,0.8);width:100%;height:100%;position:absolute;left:0;top:0}
+.marketingdatablock4list1 .mat-list,.marketingdatablock4list2 .mat-list{display:flex;-webkit-box-align:stretch;align-items:stretch;-webkit-box-pack:center;justify-content:center;flex-wrap:wrap;padding-top:0;padding-bottom:25px}
+.marketingdatablock4list1 .mat-list .mat-list-item,.marketingdatablock4list2 .mat-list .mat-list-item{height:auto;width:auto;margin-left:18px;padding:10px}
+.marketingdatablock4list1{border-bottom:1px solid #000}
+.marketingdatablock4list1 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-iconsquare-red.png) no-repeat left center;background-size:8px;padding-left:15px}
+.marketingdatablock4list2 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-icontrangle-green.png) no-repeat left center;background-size:8px;padding-left:15px}
+.marketingdatablock4list1 .mat-card-title2,.marketingdatablock4list2 .mat-card-title2{padding-top:25px}
+:host /deep/ .marketingdatablock4list1 .mat-list-base .mat-list-item .mat-list-item-content{padding:0}
+:host /deep/ .marketingdatablock4list2 .mat-list-base .mat-list-item .mat-list-item-content{padding:0}
+.marketingdatablock5.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5bg.jpg) no-repeat bottom left;background-size:cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px}
+.marketingdatablock5.pTB p{width:auto}
+.marketingdatablock5 .mat-card-title3{color:var(--color3-txt)}
+.marketingdatablock5 .marketingdatablock5list{padding:22px;background-color:#e9eff3;margin-top:25px;border:1px solid #dbe5e5}
+.marketingdatablock5list .mat-list{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.png) no-repeat top;background-size:cover;margin:0;padding:16px;list-style:none;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px;-moz-column-count:2;-webkit-column-count:2;column-count:2;-moz-column-gap:54px;-webkit-column-gap:54px;column-gap:54px;position:relative}
+.marketingdatablock5list .mat-list.listsbottom{padding-top:0!important}
+.marketingdatablock5list .mat-list.liststop .mat-list-item{height:auto;padding:10px 0 0;color:var(--color16-txt);text-transform:uppercase;font-family:var(--main-bold-font);border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #fff}
+.marketingdatablock5list .mat-list.liststop .mat-list-item:after{content:"";display:block;margin:0 auto;width:100%;padding-bottom:10px;border-bottom:1px solid #fff}
+.marketingdatablock5list .mat-list.liststop{padding-bottom:0;border-bottom:none!important;margin-bottom:-1px}
+.marketingdatablock5list .main-row-gen{width:100%;margin-top:15px}
+:host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item{height:auto;color:#c2c9d7;border-left:1px solid #fff;border-right:1px solid #fff;margin-right:auto;width:100%;margin-left:auto;position:relative;padding-left:3%;padding-right:3%;padding-top:10px}
+:host /deep/ .marketingdatablock5list .mat-list-base .mat-list-item .mat-list-item-content{justify-content:space-between;padding:0}
+:host /deep/ .marketingdatablock5list .mat-list-base.liststop .mat-list-item .mat-list-item-content{justify-content:space-between;padding:0 3%}
+:host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item:after{content:"";display:block;margin:0 auto;width:100%;padding-bottom:10px;border-bottom:1px solid #fff}
+@media (max-width: 1666px) {
+.marketingdatablockbg.mat-card{padding:84px 0 0!important;min-height:1px;height:auto}
 }
-
-.marketingdatablock4list1 .mat-list, .marketingdatablock4list2 .mat-list{display: flex;-webkit-box-align: stretch;align-items: stretch;-webkit-box-pack: center;justify-content: center;flex-wrap: wrap;padding-top: 0;padding-bottom: 25px;}
-.marketingdatablock4list1 .mat-list .mat-list-item, .marketingdatablock4list2 .mat-list .mat-list-item{height: auto;width: auto;margin-left: 18px;padding: 10px;}
-.marketingdatablock4list1 {border-bottom: 1px solid #000;}
-
-.marketingdatablock4list1 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-iconsquare-red.png) no-repeat left center;background-size: 8px;padding-left: 15px;}
-.marketingdatablock4list2 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-icontrangle-green.png) no-repeat left center;background-size: 8px;padding-left: 15px;}
-.marketingdatablock4list1 .mat-card-title2, .marketingdatablock4list2 .mat-card-title2{padding-top: 25px;}
-
-
-:host /deep/ .marketingdatablock4list1 .mat-list-base .mat-list-item .mat-list-item-content{padding: 0;}
-:host /deep/ .marketingdatablock4list2 .mat-list-base .mat-list-item .mat-list-item-content{padding: 0;}
-
-.marketingdatablock5.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5bg.jpg) no-repeat bottom left;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;min-height: 1px;}
-.marketingdatablock5.pTB p{width: auto;}
-.marketingdatablock5 .mat-card-title3 {color: var(--color3-txt);}
-.marketingdatablock5 .marketingdatablock5list {padding: 22px;background-color: #e9eff3;margin-top: 25px;border: 1px solid #dbe5e5;}
-
-.marketingdatablock5list .mat-list{    
-    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.png) no-repeat top;
-    background-size: cover;
-    margin: 0;
-    padding: 16px 16px 16px 16px;
-    /* border: solid 1px #fff !important; */
-    list-style: none;
-    border: 0!important;
-    border-radius: 0!important;
-    box-shadow: none!important;
-    min-height: 1px;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-    -moz-column-gap: 54px;
-    -webkit-column-gap: 54px;
-    column-gap: 54px;
-    position: relative;
-    /* column-rule-color: #ff0000;
-    column-rule-width: 54px;
-    column-rule-style: dotted; */
+@media (max-width: 1366px) {
+.marketingdatablockbg.mat-card{padding:136px 0 0!important}
+.marketingdatabanner-img-wrapper{width:315px;height:auto}
+.marketingdatabanner-img-wrapper img{max-width:100%}
+.innerpagebannerbg.marketingdatablockbg .mat-card-subtitle br{display:none}
+.iconcls{margin-right:20px;width:50px}
+.iconcls img{max-width:100%}
+.marketingdatablock3 .marketingdatablock3list .flex-row-gen .marketingdatablock3-img-wrapper img{height:100%;width:auto}
 }
-
-
-.marketingdatablock5list .mat-list.listsbottom{padding-top: 0!important;}
-.marketingdatablock5list .mat-list.liststop .mat-list-item{height: auto;}
-.marketingdatablock5list .mat-list.liststop .mat-list-item{padding:10px 0 0;color:var(--color16-txt);text-transform: uppercase;font-family: var(--main-bold-font);
-    border-top: 1px solid #fff;border-left: 1px solid #fff;border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;}
-    .marketingdatablock5list .mat-list.liststop .mat-list-item:after{
-        content: "";
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #fff;
-    }
-.marketingdatablock5list .mat-list.liststop{padding-bottom: 0px;border-bottom: none !important;margin-bottom: -1px;}
-
-/* .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item:nth-child(2n)::after
-{
-    border-bottom: none;
-} */
-
-
-.marketingdatablock5list .main-row-gen{width: 100%;margin-top: 15px;}
-:host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item {  
-    height: auto;
-    color: #c2c9d7;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-    margin-right: auto;
-    width: 100%;
-    margin-left: auto;
-    position: relative;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 10px;
+@media (max-width: 991px) {
+.marketingdatablock3 .marketingdatablock3list .flex-row-gen .marketingdatablock3-img-wrapper img{height:auto;width:100%}
+.marketingdatablockbg.mat-card{min-height:inherit;height:auto;background-position:center bottom!important;text-align:center;padding:10px 0 0!important}
+.innerpagebannerbg.marketingdatablockbg .flex-row-gen{height:100%;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;position:relative;flex-wrap:wrap}
+.marketingdatablock2list .mat-card-title2{text-align:center}
+.marketingdatablock2.mat-card .flex-row-gen{flex-wrap:wrap;justify-content:center}
+.marketingdatablock2 .mat-card-title1{text-align:center;margin-top:0}
+.marketingdatablock2 .mat-card-title2.textinheritcls{text-align:center}
+.marketingdatablock2list{margin-top:20px}
+.marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 24.33%;flex:1 1 24.33%}
 }
-:host /deep/ .marketingdatablock5list .mat-list-base .mat-list-item .mat-list-item-content{justify-content: space-between;padding: 0;}
-:host /deep/ .marketingdatablock5list .mat-list-base.liststop .mat-list-item .mat-list-item-content{justify-content: space-between;padding: 0 3%;}
-
-/* :host /deep/ .marketingdatablock5list .mat-list-base.listsbottom::after {
-    content:'';
-    width:100%;
-    height:1px;
-    position:absolute;
-    background-color:#fff;
-    bottom:0;
-    left:0;
-} */
-
-
- :host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #fff;
+@media (max-width: 767px) {
+.marketingdatablock5list .mat-list{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.jpg) no-repeat top;background-size:cover;margin:0;padding:16px;list-style:none;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px;-moz-column-count:1;-webkit-column-count:1;column-count:1;-moz-column-gap:54px;-webkit-column-gap:54px;column-gap:54px;position:relative}
+.marketingdatablock5list .mat-list.liststop .mat-list-item:last-child{display:none}
+.marketingdatablock3 .marketingdatablock3list .mat-list-item .flex-row-gen{flex-wrap:wrap}
+.marketingdatablock3 .marketingdatablock3list .flex-row-gen .main-row-gen{width:100%}
+.marketingdatablock3 .marketingdatablock3list .flex-row-gen .sideblock-row-gen{width:100%;padding:0 20px}
+.marketingdatablock3 .marketingdatablock3list .mat-card-content p{text-align:center}
+.icontitlecls{-webkit-box-pack:center;justify-content:center}
+.marketingdatablock2-img-wrapper{width:90%;height:auto;margin:0 auto}
+.marketingdatablock2-img-wrapper img{width:auto;margin-left:auto;margin-top:5%;margin-right:auto;max-width:100%}
+.marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 33.33%;flex:1 1 33.33%}
 }
-
-
-@media (max-width: 1666px){
-    .marketingdatablockbg.mat-card {padding: 84px 0 0px!important;min-height: 1px;height: auto;}
+@media (max-width: 600px) {
+.icontitlecls{margin-bottom:10px}
+.iconcls{margin-right:10px;width:30px}
+.marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 50%;flex:1 1 50%}
+.marketingdatablock4list1 .mat-list .mat-list-item,.marketingdatablock4list2 .mat-list .mat-list-item{flex:1 1 100%;background-size:8px;padding-left:inherit;padding-top:13px;padding-bottom:18px}
+:host /deep/ .marketingdatablock4list1 .mat-list .mat-list-item .mat-list-item-content,:host /deep/ .marketingdatablock4list2 .mat-list .mat-list-item .mat-list-item-content{flex-wrap:wrap;justify-content:center}
+.marketingdatablock4list1 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-iconsquare-red.png) no-repeat center top}
+.marketingdatablock4list2 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-icontrangle-green.png) no-repeat center top}
 }
-
-@media (max-width: 1366px){
-    .marketingdatablockbg.mat-card {padding: 136px 0 0px!important;}
-    .marketingdatabanner-img-wrapper {width: 315px;height: auto;}
-    .marketingdatabanner-img-wrapper img {max-width: 100%;}
+@media (max-width: 480px) {
+.marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 100%;flex:1 1 100%}
 }

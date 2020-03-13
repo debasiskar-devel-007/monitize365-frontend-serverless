@@ -1,5 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
-// import {MatTableDataSource} from '@angular/material/table';
+import { MetaService } from '@ngx-meta/core';
 
 @Component({
   selector: 'app-marketing-data',
@@ -8,26 +8,22 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 })
 export class MarketingDataComponent implements OnInit {
 
-  constructor() { }
+  constructor(private readonly meta: MetaService) { 
+    this.meta.setTitle('Monitize365 - Marketing Data');
+    this.meta.setTag('og:description', 'Monitize365 Residential and Business level GEO-fencing in the mobile display marketplace uses our new micro-targeting technology to pinpoint potential customers with unprecedented accuracy and efficiency.');
+    this.meta.setTag('twitter:description', 'Monitize365 Residential and Business level GEO-fencing in the mobile display marketplace uses our new micro-targeting technology to pinpoint potential customers with unprecedented accuracy and efficiency.');
+
+    this.meta.setTag('og:keyword', 'Monitize365, Residential Geofencing, Business Geofencing, Commercial Geofencing, Monitize365 with Big Data');
+    this.meta.setTag('twitter:keyword', 'Monitize365, Residential Geofencing, Business Geofencing, Commercial Geofencing, Monitize365 with Big Data');
+
+    this.meta.setTag('og:title', 'Monitize365 - Marketing Data');
+    this.meta.setTag('twitter:title', 'Monitize365 - Marketing Data');
+    this.meta.setTag('og:type', 'website');
+    this.meta.setTag('og:image', '../../assets/images/logo-fb.jpg');
+    this.meta.setTag('twitter:image', '../../assets/images/logo-twitter.jpg');
+  }
 
   ngOnInit() {
   }
 
-  // value = [
-  // {title:'Chief Executive Officer', listCount:4334571},
-  // {title:'Chief Financial Officer', listCount:46306},
-  // {title:'Chief Marketing Officer', listCount:21051},
-  // {title:'Chief Operating Officer', listCount:12871},
-  // {title:'Chief Technology Officer', listCount:27471},
-  // {title:'Director', listCount:174538},
-  // {title:'Executive Director', listCount:138687},
-  // {title:'Executive Officer', listCount:101718},
-  // {title:'Executive Vice President', listCount:61176},
-  // {title:'Financial Executive', listCount:208481},
-  // {title:'General Manager', listCount:67159},
-  // {title:'Human Resource Executive', listCount:116318},
-  // {title:'Manager', listCount:2840748}
-  // ]
-
-  // displayedColumns = ['title', 'listCount'];
 }
