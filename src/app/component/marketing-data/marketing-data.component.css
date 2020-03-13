@@ -88,7 +88,7 @@
 .marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 24.33%;flex:1 1 24.33%}
 }
 @media (max-width: 767px) {
-.marketingdatablock5list .mat-list{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.jpg) no-repeat top;background-size:cover;margin:0;padding:16px;list-style:none;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px;-moz-column-count:1;-webkit-column-count:1;column-count:1;-moz-column-gap:54px;-webkit-column-gap:54px;column-gap:54px;position:relative}
+.marketingdatablock5list .mat-list{background-position: top;background-size:cover;margin:0;padding:16px;list-style:none;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px;-moz-column-count:1;-webkit-column-count:1;column-count:1;-moz-column-gap:54px;-webkit-column-gap:54px;column-gap:54px;position:relative}
 .marketingdatablock5list .mat-list.liststop .mat-list-item:last-child{display:none}
 .marketingdatablock3 .marketingdatablock3list .mat-list-item .flex-row-gen{flex-wrap:wrap}
 .marketingdatablock3 .marketingdatablock3list .flex-row-gen .main-row-gen{width:100%}
@@ -105,8 +105,8 @@
 .marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 50%;flex:1 1 50%}
 .marketingdatablock4list1 .mat-list .mat-list-item,.marketingdatablock4list2 .mat-list .mat-list-item{flex:1 1 100%;background-size:8px;padding-left:inherit;padding-top:13px;padding-bottom:18px}
 :host /deep/ .marketingdatablock4list1 .mat-list .mat-list-item .mat-list-item-content,:host /deep/ .marketingdatablock4list2 .mat-list .mat-list-item .mat-list-item-content{flex-wrap:wrap;justify-content:center}
-.marketingdatablock4list1 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-iconsquare-red.png) no-repeat center top}
-.marketingdatablock4list2 .mat-list .mat-list-item{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/lists-icontrangle-green.png) no-repeat center top}
+.marketingdatablock4list1 .mat-list .mat-list-item{background-position: center top;}
+.marketingdatablock4list2 .mat-list .mat-list-item{background-position: center top;}
 }
 @media (max-width: 480px) {
 .marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 100%;flex:1 1 100%}
