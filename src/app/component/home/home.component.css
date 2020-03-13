@@ -114,6 +114,8 @@
 @media (max-width:600px) {
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:49.5%}
 .homeblock3.pTB .mat-list-base .mat-list-item,.homeblock3.pTB .mat-list-base .mat-list-option{flex:1 1 100%}
+.homebannerbg .mat-card-title {--min-font: 42;line-height: normal;}
+.homebannerbg .mat-card-subtitle {--max-font: 39;--min-font: 27;}
 }
 @media (max-width:480px) {
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:100%}
@@ -124,4 +126,5 @@
 :host /deep/ .homeblock3.pTB .mat-list-base .mat-list-item .mat-list-item-content .flex-row-gen{justify-content:center}
 .homeblock3.pTB .mat-list-base .mat-list-item:before{content:"";top:0;left:0;position:absolute;height:1px;width:100%;background:-webkit-gradient(linear,left bottom,left top,from(rgba(255,255,255,1)),color-stop(49%,rgba(174,174,174,1)),to(rgba(255,255,255,1)));background:linear-gradient(to left,rgba(255,255,255,1) 0%,rgba(174,174,174,1) 49%,rgba(255,255,255,1) 100%);filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#fff',endColorstr='#fff',GradientType=1);-webkit-transform:rotateY(180deg);transform:rotate(180deg);margin-top:15px}
 .homeblock3.pTB .mat-list-base .mat-list-item:last-child::after{display:none}
+.geofenceblock4 .flex-row-gen .flex-row-gen {flex-wrap: wrap;}
 }

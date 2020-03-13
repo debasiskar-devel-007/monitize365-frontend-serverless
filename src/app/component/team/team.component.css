@@ -25,7 +25,7 @@
 .teambg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#988bff;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
 }
 @media (max-width: 640px) {
-.teamblock1list .mat-list-item{width:100%;margin-bottom:25%}
+.teamblock1list .mat-list-item{width:100%;margin-bottom:25%!important;}
 .teamblock1imgwrapper{margin-top:-40%}
 .teamblock1list .mat-list-item:first-child{margin-top:30%!important}
 .teamblock1list .mat-list-item:last-child{margin-bottom:0}

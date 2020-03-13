@@ -9,7 +9,7 @@
 .geofenceblock2 .mat-card-title1{color:var(--color6-txt)}
 .geofenceblock2.pTB .mat-card-title3{text-transform:inherit;margin-top:0!important;text-align:left;color:var(--color-txt)}
 .geofenceblock2.pTB .mat-list{padding-top:0}
-.geofenceblock2.pTB .mat-list .mat-list-item{color:var(--color11-txt);text-align:left;height:auto;--max-font:24;--min-font:18;font-family:var(--font-family-base);font-size:var(--responsive);margin-top:24px;border-left:4px solid #19abef;padding-left:9px}
+.geofenceblock2.pTB .mat-list .mat-list-item{color:var(--color11-txt);text-align:left;height:auto;--max-font: 17;--min-font: 14;font-family:var(--font-family-base);font-size:var(--responsive);margin-top:24px;border-left:4px solid #19abef;padding-left:9px}
 .geofenceblock2img img{width:auto!important;max-width:100%}
 :host /deep/ .geofenceblock2.pTB .mat-list .mat-list-item .mat-list-item-content{padding:0}
 .geofenceblock2 .flex-row-gen:nth-child(odd){flex-direction:row-reverse;margin-top:20px}
@@ -51,6 +51,7 @@
 }
 @media (max-width: 1199px) {
 .geofencebg.mat-card{padding:10px 0!important}
+.geofencerightimg {bottom: -23%;width: 425px;}
 }
 @media (max-width: 991px) {
 .geofenceblock3.mat-card .mainwrappercontent .geofenceblock3leftimg{position:inherit;top:0;z-index:9;left:0;overflow:hidden}
@@ -76,4 +77,6 @@
 .geofenceblock4 .flex-row-gen .main-row-gen{width:100%}
 .geofenceblock4 .flex-row-gen .sideblock-row-gen{padding:17px;width:100%}
 .geofenceblock4 .flex-row-gen .flex-row-gen{flex-wrap:nowrap}
+.geofenceblock4.pTB .arrowgen:before{display: none;}
+.geofenceblock4.pTB .arrowgen:after{display: none;}
 }
