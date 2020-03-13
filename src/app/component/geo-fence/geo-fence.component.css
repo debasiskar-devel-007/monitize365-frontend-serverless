@@ -134,7 +134,25 @@
 }
 }
 @media (max-width: 991px){
-.geofencebg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#3f92cf;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+    .geofenceblock3.mat-card .mainwrappercontent .geofenceblock3leftimg {
+        position: inherit;
+        top: 0;
+        z-index: 99;
+        left: 0;
+    }
+    .geofenceblock3.mat-card .mainwrappercontent .flex-row-gen {
+        padding-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+.geofencebg.mat-card{
+    min-height: inherit;
+    height: auto;
+    background-position: bottom right!important;
+    text-align: center;
+}
 .geofencerightimg{
     position: absolute;
     right: 10%;
@@ -146,6 +164,18 @@
 
 .geofenceblock2.mat-card{min-height:inherit;height:auto;padding-top:30px!important;background-position:top right;background-repeat:no-repeat;background-color:#03183b;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
 
-.geofenceblock3.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#f7faf9;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+.geofenceblock3.mat-card{
+    min-height: inherit;
+    height: auto;
+    background-position: bottom right!important;
+    text-align: center;
+}
+
+.geofenceblock3.mat-card .mainwrappercontent .flex-row-gen .sideblock-row-gen {
+    width: 100%;
+}
+.geofenceblock3.mat-card .mainwrappercontent .flex-row-gen .main-row-gen {
+    width: 100%;
+}
 
 }

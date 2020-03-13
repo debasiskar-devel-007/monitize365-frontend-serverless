@@ -39,3 +39,47 @@
     .servicebanner-img-wrapper {width: 475px;height: auto;}
     .servicebanner-img-wrapper img {max-width: 100%;}
 }
+@media (max-width: 1366px){
+    .serviceblockbg.mat-card{
+        min-height: inherit;
+        height: auto;
+        background-position: center bottom!important;
+        text-align: center;
+        padding: 10px 0 0px!important;
+    }
+    .innerpagebannerbg.serviceblockbg .flex-row-gen {
+        height: 100%;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .serviceblock2bg.mat-card{
+        min-height: inherit;
+        height: auto;
+        background-position: center bottom!important;
+        text-align: center;
+        padding: 10px 0 0px!important;
+    }
+    .serviceblock2bg .flex-row-gen {
+        height: 100%;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .serviceblock2img-wrapper {
+        margin-top: 0;
+        width: auto;
+    }
+    .serviceblock3bg .yellowgradient p {
+        margin-top: 0 !important;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+}

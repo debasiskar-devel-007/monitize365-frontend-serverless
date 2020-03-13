@@ -32,7 +32,7 @@
 .homeblock3.pTB p{width: auto;}
 .homeblock3.pTB .sideblock-row-gen .mat-card-title3{text-align: left;font-family: VAR(--main-font);margin-top: 0px !important;margin-left: 15px;}
 .homeblock3.pTB .mat-list-base .mat-list-item, .homeblock3.pTB .mat-list-base .mat-list-option{height: auto;width: 33.33%;padding-left: 50px;padding-right: 50px;}
-:host /deep/ .mat-list-base .mat-list-item .mat-list-item-content,  :host /deep/ .mat-list-base .mat-list-option .mat-list-item-content{padding: 0;}
+:host /deep/ .mat-list-base .mat-list-item .mat-list-item-content,  :host /deep/ .mat-list-base .mat-list-option .mat-list-item-content{padding: 0;display: block;}
 :host /deep/ .homeblock3.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: space-between;margin-top: 30px;}
 .homeblock3.pTB .flex-row-gen .main-row-gen .flex-row-gen{justify-content: center;}
 .homeblock3.pTB .flex-row-gen .main-row-gen .mat-card-content p{color: var(--color7-txt);}
@@ -49,7 +49,7 @@
   min-height: 1px;
 }
 .homeblock4listswrapper {background-color: var(--body-bg);padding:25px 0;border-radius: 20px;margin-top: 30px;}
-:host /deep/ .homeblock4.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: space-between;flex-wrap: wrap;}
+:host /deep/ .homeblock4.pTB .mat-list-base{padding-top: 0;display: flex;align-items: stretch;justify-content: center;flex-wrap: wrap;}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height: auto;width: 12.50%;}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .sideblock-gen{box-shadow: 10px 0 6px -6px rgba(0,0,0,0.2);}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .mat-list-item-content{height: 100%;}
@@ -150,7 +150,7 @@
   border-right: 500px solid transparent;
   border-top: 500px solid #4679BD;
 }
-.homeblock5 .mat-list{display: flex;align-items: stretch;justify-content: space-between;width: 96%;padding: 20px;background: #fff;margin: 0 auto; margin-top: 20px; box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.5)}
+.homeblock5 .mat-list{display: flex;align-items: stretch;justify-content: center;width: 96%;padding: 20px;background: #fff;margin: 0 auto; margin-top: 20px; box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.5)}
 .homeblock5 .mat-list .mat-list-item{flex: 1 1 20%;height: 343px;overflow: hidden;}
 .homeblock5 .mat-list .mat-list-item img{width: auto; max-width: 100%;}
 
@@ -233,8 +233,39 @@
 }
 
 @media (max-width:991px){
+  .homeblock5 .mat-list{flex-wrap: wrap;}
+  .homeblock5 .mat-list .mat-list-item {height: 296px;flex: 1 1 31%;margin: 1%;}
   .homeblock3.pTB .mat-list-base .mat-list-item, .homeblock3.pTB .mat-list-base .mat-list-option {padding-left: 10px;padding-right: 10px;}
   .homebannerbg .mat-card-title {--min-font: 57;}
   .homeblock3.pTB .mat-list-base {margin-top: 0px;}
 }
 
+@media (max-width: 767px) {
+  .homebannerbg .mat-card-title {
+    --min-font: 57;
+    line-height: 60px;
+  }
+}
+
+@media (max-width:700px){
+  :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item {
+    height: auto;
+    width: 32.5%;
+  }
+  .homeblock5 .mat-list .mat-list-item {flex: 1 1 33%;}
+}
+
+@media (max-width:600px){
+  :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item {
+    height: auto;
+    width: 49.5%;
+  }
+}
+
+@media (max-width:480px){
+  :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item {
+    height: auto;
+    width: 100%;
+  }
+  .homeblock5 .mat-list .mat-list-item {flex: 1 1 98%;}
+}
