@@ -61,7 +61,7 @@
 .marketingdatablock5list .mat-list.liststop{padding-bottom:0;border-bottom:none!important;margin-bottom:-1px}
 .marketingdatablock5list .main-row-gen{width:100%;margin-top:15px}
 :host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item{height:auto;color:#c2c9d7;border-left:1px solid #fff;border-right:1px solid #fff;margin-right:auto;width:100%;margin-left:auto;position:relative;padding-left:3%;padding-right:3%;padding-top:10px}
-:host /deep/ .marketingdatablock5list .mat-list-base .mat-list-item .mat-list-item-content{justify-content:space-between;padding:0}
+:host /deep/ .marketingdatablock5list .mat-list-base .mat-list-item .mat-list-item-content{justify-content:space-between;padding:0;text-align: left;}
 :host /deep/ .marketingdatablock5list .mat-list-base.liststop .mat-list-item .mat-list-item-content{justify-content:space-between;padding:0 3%}
 :host /deep/ .marketingdatablock5list .mat-list-base.listsbottom .mat-list-item:after{content:"";display:block;margin:0 auto;width:100%;padding-bottom:10px;border-bottom:1px solid #fff}
 @media (max-width: 1666px) {
@@ -76,6 +76,14 @@
 .iconcls img{max-width:100%}
 .marketingdatablock3 .marketingdatablock3list .flex-row-gen .marketingdatablock3-img-wrapper img{height:100%;width:auto}
 }
+
+
+@media (max-width: 1199px) {
+    .marketingdatablockbg.mat-card {
+        padding: 10px 0 0!important;
+    }
+    }
+
 @media (max-width: 991px) {
 .marketingdatablock3 .marketingdatablock3list .flex-row-gen .marketingdatablock3-img-wrapper img{height:auto;width:100%}
 .marketingdatablockbg.mat-card{min-height:inherit;height:auto;background-position:center bottom!important;text-align:center;padding:10px 0 0!important}
@@ -88,6 +96,7 @@
 .marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 24.33%;flex:1 1 24.33%}
 }
 @media (max-width: 767px) {
+.marketingdatablock5list .mat-list {background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/marketingdatablock5listbg.jpg) no-repeat top;}
 .marketingdatablock5list .mat-list{background-position: top;background-size:cover;margin:0;padding:16px;list-style:none;border:0!important;border-radius:0!important;box-shadow:none!important;min-height:1px;-moz-column-count:1;-webkit-column-count:1;column-count:1;-moz-column-gap:54px;-webkit-column-gap:54px;column-gap:54px;position:relative}
 .marketingdatablock5list .mat-list.liststop .mat-list-item:last-child{display:none}
 .marketingdatablock3 .marketingdatablock3list .mat-list-item .flex-row-gen{flex-wrap:wrap}

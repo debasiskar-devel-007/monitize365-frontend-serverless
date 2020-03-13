@@ -26,4 +26,15 @@
 
 @media (max-width: 991px){
 .contactusbg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#f3d364;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+
+}
+@media (max-width: 767px){
+.contactusformblock.pTB .flex-row-gen{flex-wrap: wrap;}
+.contactusformblock .flex-row-gen .main-row-gen {width: 100%!important;}
+.contactusformblock .flex-row-gen .sideblock-gen {width: 100% !important;margin-left: auto;}
+.contactusformblock .matbuttoncls{padding: 10px 40px!important;margin: 0 auto;display: block;}
+.contactusformblock .flex-row-gen .main-row-gen .mat-form-field {width: 100%;margin-right: auto !important;margin-left: auto !important;}
+.mapwrapper {margin-top: 20px;}
+.contactusformblock.pTB .mat-card-title2 {line-height: normal;text-align: center;}
+.contactusformblock p {text-align: center;display: block;margin: 0 auto;}
 }

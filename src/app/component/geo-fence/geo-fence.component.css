@@ -51,6 +51,7 @@
 }
 @media (max-width: 1199px) {
 .geofencebg.mat-card{padding:10px 0!important}
+.geofencerightimg {bottom: -23%;width: 425px;}
 }
 @media (max-width: 991px) {
 .geofenceblock3.mat-card .mainwrappercontent .geofenceblock3leftimg{position:inherit;top:0;z-index:9;left:0;overflow:hidden}
@@ -76,4 +77,6 @@
 .geofenceblock4 .flex-row-gen .main-row-gen{width:100%}
 .geofenceblock4 .flex-row-gen .sideblock-row-gen{padding:17px;width:100%}
 .geofenceblock4 .flex-row-gen .flex-row-gen{flex-wrap:nowrap}
+.geofenceblock4.pTB .arrowgen:before{display: none;}
+.geofenceblock4.pTB .arrowgen:after{display: none;}
 }

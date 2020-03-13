@@ -711,6 +711,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 }
 
 
+@media (max-width: 767px){
+  .innerpagebannerbg .mat-card-title {
+      --min-font: 42;
+  }
+  
+}
 
 @media (max-width: 600px) {
   .mat-card-title110 {
