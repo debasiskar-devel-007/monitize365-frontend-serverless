@@ -1,7 +1,6 @@
 
 .contactusbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/contactusbannerbg.jpg) no-repeat center center #f3d364;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height: 582px;}
 
-/*--contact us css--*/
 .contactusformblock .flex-row-gen .main-row-gen{width: 80% !important;}
 .contactusformblock .flex-row-gen .sideblock-gen{width: 40% !important;}
 .contactusformblock .flex-row-gen .main-row-gen .mat-form-field{width: 49%;margin-left: 1%;margin-right: 1%;}

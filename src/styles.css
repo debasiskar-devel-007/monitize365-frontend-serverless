@@ -700,8 +700,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 .homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content {padding: 10px;}
 
 .pTB p br {display: none;}  
-.pTB p {margin-top: 0!important;}
-.pTB .mat-card-title3 br, .pTB .mat-card-subtitle br{display: none;}
+.pTB p {margin-top: 15px!important;}
+.pTB .mat-card-title3 br, .pTB .mat-card-subtitle br,.pTB .mat-card-title1 br{display: none;}
+.innerpagebannerbg .mat-card-title {--min-font: 60;}
+.innerpagebannerbg .mat-card-subtitle {--min-font: 22;}
+.innerpagebannerbg .flex-row-gen {flex-wrap: wrap;justify-content: center;}
+.pTB .mat-card-title1 {line-height: normal;}
+.serviceblock1img-wrapper img {margin-top: 30px;}
+.pTB .mat-card-title2 {line-height: normal;}
 }
 
 
@@ -711,4 +717,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     --max-font: 90;
     --min-font: 56;
   }
+
 }

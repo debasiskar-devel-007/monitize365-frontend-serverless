@@ -1,85 +1,40 @@
-
-.serviceblockbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/serviceblockbannerbg.jpg) no-repeat center center;background-size: cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height: 582px;}
-
-.innerpagebannerbg.serviceblockbg .mat-card-title {color: var(--color8-txt);}
-.innerpagebannerbg.serviceblockbg .mat-card-subtitle {color: var(--color8-txt);}
-
-
-.servicebanner-img-wrapper{width: 656px; height: 470px; display: block;margin-top: 22px;}
-.servicebanner-img-wrapper img{width: auto !important;position: relative;}
-
-.serviceblock1bg.pTB p{width: auto;}
-.serviceblock1bg .greengradient{display: inline-block;padding: 5px 20px;border-radius: 15px;margin-top: 25px;}
-.serviceblock1bg .greengradient .mat-card-title3{color:var(--color-txt);text-shadow: 2px 0px 0 #5c5e60;}
-.serviceblock1img-wrapper{margin-top: -6%;margin-left: -5%;}
-.serviceblock1img-wrapper img{width: auto;max-width: 100%;}
-
-.serviceblock2bg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/serviceblock2bg.jpg) no-repeat bottom right;background-size: cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;height: 363px;}
-
+.serviceblockbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/serviceblockbannerbg.jpg) no-repeat center center;background-size:cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height:582px}
+.innerpagebannerbg.serviceblockbg .mat-card-title{color:var(--color8-txt)}
+.innerpagebannerbg.serviceblockbg .mat-card-subtitle{color:var(--color8-txt)}
+.servicebanner-img-wrapper{width:656px;height:470px;display:block;margin-top:22px}
+.servicebanner-img-wrapper img{width:auto!important;position:relative}
+.serviceblock1bg.pTB p{width:auto}
+.serviceblock1bg .greengradient{display:inline-block;padding:5px 20px;border-radius:15px;margin-top:25px}
+.serviceblock1bg .greengradient .mat-card-title3{color:var(--color-txt);text-shadow:2px 0 0 #5c5e60}
+.serviceblock1img-wrapper{margin-top:-6%;margin-left:-5%}
+.serviceblock1img-wrapper img{width:auto;max-width:100%}
+.serviceblock2bg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/serviceblock2bg.jpg) no-repeat bottom right;background-size:cover;margin:0!important;padding:0;border:0!important;border-radius:0!important;box-shadow:none!important;height:363px}
 .serviceblock2bg.pTB .mat-card-title1{color:var(--color6-txt)}
 .serviceblock2bg.pTB .mat-card-title3{color:var(--color3-txt)}
 .serviceblock2bg.pTB p{color:var(--color-txt)}
-
-.serviceblock2img-wrapper{margin-top: -26%;width: 480px;}
-.serviceblock2bg .flex-row-gen{justify-content: space-between;}
-
-.serviceblock3bg.pTB p{width: auto;}
-.serviceblock3bg .yellowgradient{display: inline-block;padding: 15px 20px;border-radius: 5px;margin-top: 25px;}
-.serviceblock3bg .yellowgradient p{margin-top: 0 !important;margin-bottom: 80px;font-weight: bold;}
-.serviceblock3img-wrapper{margin-top: -5%;}
-.serviceblock3img-wrapper img{width: auto;max-width: 100%;}
-.bluetxt{color:var(--color3-txt);}
-
-
-@media (max-width: 1666px){
-    .serviceblockbg.mat-card {padding: 84px 0 0px!important;min-height: 1px;height: auto;}
+.serviceblock2img-wrapper{margin-top:-26%;width:480px}
+.serviceblock2bg .flex-row-gen{justify-content:space-between}
+.serviceblock3bg.pTB p{width:auto}
+.serviceblock3bg .yellowgradient{display:inline-block;padding:15px 20px;border-radius:5px;margin-top:25px}
+.serviceblock3bg .yellowgradient p{margin-top:0!important;margin-bottom:80px;font-weight:700}
+.serviceblock3img-wrapper{margin-top:-5%}
+.serviceblock3img-wrapper img{width:auto;max-width:100%}
+.bluetxt{color:var(--color3-txt)}
+@media (max-width: 1666px) {
+.serviceblockbg.mat-card{padding:84px 0 0!important;min-height:1px;height:auto}
 }
-@media (max-width: 1366px){
-    .serviceblockbg.mat-card {padding: 140px 0 0px!important;}
-    .servicebanner-img-wrapper {width: 475px;height: auto;}
-    .servicebanner-img-wrapper img {max-width: 100%;}
+@media (max-width: 1366px) {
+.serviceblockbg.mat-card{padding:140px 0 0!important}
+.servicebanner-img-wrapper{width:475px;height:auto}
+.servicebanner-img-wrapper img{max-width:100%}
+.serviceblockbg.mat-card{min-height:inherit;height:auto;background-position:center bottom!important;text-align:center;padding:10px 0 0!important}
+.innerpagebannerbg.serviceblockbg .flex-row-gen{height:100%;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;position:relative;flex-wrap:wrap}
+.serviceblock2bg.mat-card{min-height:inherit;height:auto;background-position:center bottom!important;text-align:center;padding:20px 0 0!important}
+.serviceblock2bg .flex-row-gen{height:100%;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;position:relative;flex-wrap:wrap}
+.serviceblock2img-wrapper{margin-top:0;width:auto}
+.serviceblock3bg .yellowgradient p{margin-top:0!important;margin-bottom:25px;font-weight:700}
+.serviceblock1bg .greengradient{margin-top:20px}
 }
-@media (max-width: 1366px){
-    .serviceblockbg.mat-card{
-        min-height: inherit;
-        height: auto;
-        background-position: center bottom!important;
-        text-align: center;
-        padding: 10px 0 0px!important;
-    }
-    .innerpagebannerbg.serviceblockbg .flex-row-gen {
-        height: 100%;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        position: relative;
-        flex-wrap: wrap;
-    }
-
-    .serviceblock2bg.mat-card{
-        min-height: inherit;
-        height: auto;
-        background-position: center bottom!important;
-        text-align: center;
-        padding: 10px 0 0px!important;
-    }
-    .serviceblock2bg .flex-row-gen {
-        height: 100%;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        position: relative;
-        flex-wrap: wrap;
-    }
-    .serviceblock2img-wrapper {
-        margin-top: 0;
-        width: auto;
-    }
-    .serviceblock3bg .yellowgradient p {
-        margin-top: 0 !important;
-        margin-bottom: 25px;
-        font-weight: bold;
-    }
+@media (max-width: 767px) {
+.servicebanner-img-wrapper{width:100%;height:auto}
 }

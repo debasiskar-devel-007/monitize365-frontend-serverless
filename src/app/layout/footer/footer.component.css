@@ -56,8 +56,12 @@
 .mainfooter_block1_con3 img{width:75%}
 .mainfooter_block1_con2 mat-nav-list mat-list-item{padding:5px}
 .mainfooter_block1_con2_bottom p{width:100%}
-.scroll-to-top{bottom:75px;right:16px}
+.scroll-to-top {bottom: 75px;right: 16px;width: 40px;}
 .homebannersection{margin-top:20px!important}
 .homesection6wrapper p.talktous {font-size: 30px;line-height: normal;}
 .mainfooter_block1_con2_bottom p {text-align: center;}
+}
+
+@media screen and (max-width:540px) {
+    .mainfooter_block1_con2_top img {max-width: 80%;width: inherit;}
 }
