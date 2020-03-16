@@ -76,7 +76,13 @@
 .geofenceblock4 .flex-row-gen{flex-wrap:wrap}
 .geofenceblock4 .flex-row-gen .main-row-gen{width:100%}
 .geofenceblock4 .flex-row-gen .sideblock-row-gen{padding:17px;width:100%}
-.geofenceblock4 .flex-row-gen .flex-row-gen{flex-wrap:nowrap}
+.geofenceblock4 .flex-row-gen .flex-row-gen{flex-wrap:wrap;padding: 5px;}
 .geofenceblock4.pTB .arrowgen:before{display: none;}
 .geofenceblock4.pTB .arrowgen:after{display: none;}
+.geofenceblock4.pTB .flex-row-gen .mat-card-subtitle {text-align: center;}
+.geofenceblock4.pTB p {text-align: center;}
+.geofenceblock2img{margin-top: 20px;}
+.homeblock5 .matbuttoncls {margin-top: 20px!important;padding: 10px 30px!important;}
+.teamblock1.pTB .teamblock1list .mat-card-title {line-height: normal;}
+
 }

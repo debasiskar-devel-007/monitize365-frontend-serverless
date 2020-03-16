@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 991px){
-.contactusbg.mat-card{min-height:inherit;height:auto;padding-top:56%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#f3d364;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+.contactusbg.mat-card{min-height: inherit;height: auto;padding-top: 58%!important;background-size: 178%!important;background-position: top right;background-repeat: no-repeat;background-color: #f3d364;padding-bottom: 15px!important;background-position: top right 0!important;text-align: center;}
 
 }
 @media (max-width: 767px){
