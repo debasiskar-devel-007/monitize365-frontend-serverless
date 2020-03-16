@@ -67,15 +67,15 @@
 :host /deep/ .homeblock5 .mat-tab-list::after{
     content: '';
     position: absolute;
-    top: -125px;
+    top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
     background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabgradientbg.png) no-repeat;
-    height: 315px;
+    height: 175px;
     opacity: 1;
-    background-size: 100%;
     z-index: 99;
+    background-size: 100%;
+    background-position: top -80px left;
 }
 :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1):before, :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(2):before, :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(3):before{
     content: '';
@@ -95,9 +95,7 @@
 .homebanner-img-wrapper img{max-width:100%}
 }
 @media (max-width:1199px) {
-    /* :host /deep/ .homeblock5 .mat-tab-list::after {
-        top: 0px;
-    } */
+:host /deep/ .homeblock5 .mat-tab-list::after {background-position: top 0px left;}
 .homesection2wrapper.mat-card{min-height:inherit;height:auto;padding-top:70%!important;background-size:198%!important;background-repeat:no-repeat;background-color:#020e27;padding-bottom:25px!important;background-position:top right 0!important}
 .homebannerbg .flex-row-gen{flex-wrap:wrap}
 .homeblock2.mat-card{min-height:inherit;height:auto;padding-top:46%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#041438;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
@@ -143,6 +141,7 @@
 .homeblock3.pTB .mat-list-base .mat-list-item,.homeblock3.pTB .mat-list-base .mat-list-option{flex:1 1 100%}
 .homebannerbg .mat-card-title {--min-font: 42;line-height: normal;}
 .homebannerbg .mat-card-subtitle {--max-font: 39;--min-font: 27;}
+:host /deep/ .homeblock5 .mat-tab-list::after {background-position: top 45px left;}
 }
 @media (max-width:480px) {
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:100%}
