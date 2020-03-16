@@ -63,6 +63,20 @@
 .homeblock5 .mat-list .mat-list-item{flex:1 1 20%;height:343px;overflow:hidden}
 .homeblock5 .mat-list .mat-list-item img{width:auto;max-width:100%}
 .homeblock5 .matbuttoncls{margin-top:20px!important}
+:host /deep/ .homeblock5 .mat-tab-list{position: relative;overflow: hidden;}
+:host /deep/ .homeblock5 .mat-tab-list::after{
+    content: '';
+    position: absolute;
+    top: -125px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabgradientbg.png) no-repeat;
+    height: 315px;
+    opacity: 1;
+    background-size: 100%;
+    z-index: 99;
+}
 @media (max-width:1700px) {
 .homeblock2.mat-card{background-position:top right 40%!important}
 }
@@ -71,6 +85,9 @@
 .homebanner-img-wrapper img{max-width:100%}
 }
 @media (max-width:1199px) {
+    :host /deep/ .homeblock5 .mat-tab-list::after {
+        top: 0px;
+    }
 .homesection2wrapper.mat-card{min-height:inherit;height:auto;padding-top:70%!important;background-size:198%!important;background-repeat:no-repeat;background-color:#020e27;padding-bottom:25px!important;background-position:top right 0!important}
 .homebannerbg .flex-row-gen{flex-wrap:wrap}
 .homeblock2.mat-card{min-height:inherit;height:auto;padding-top:46%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#041438;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
