@@ -5,8 +5,7 @@
           <mat-toolbar color="primary">
             <mat-toolbar-row>
               <span class="topmenuiconlogo">
-                <span class="logowrappersml" fxFlex><a [routerLink]="['/']"><img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/logo.png"
-                      class="landinglogoblock1"></a></span>
+                <span class="logowrappersml" fxFlex><a [routerLink]="['/']"><img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/logo.png" alt="logo" class="landinglogoblock1"></a></span>
                 <button mat-icon-button (click)="toggleNavbar()" fxShow="true" fxHide.gt-sm>
                   <mat-icon>menu</mat-icon>
                 </button>
@@ -16,8 +15,7 @@
               <span fxShow="true" class="smlmenudiv" [ngClass]="{ 'show': navbarOpen }">
                 <mat-nav-list fxLayout>
                   <div class="mainwrappercontent">
-                    <span class="pagelogowrapper" fxFlex><a [routerLink]="['/']"><img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/logo.png"
-                      class="landinglogoblock1"></a></span>
+                    <span class="pagelogowrapper" fxFlex><a [routerLink]="['/']"><img src="http://all-frontend-assets.s3.amazonaws.com/monetize365/images/logo.png" alt="logo" class="landinglogoblock1"></a></span>
                     <span class="menuwrapper">
                       <mat-list-item fxFlex [ngClass]="router.url === '/home' ? 'active' : ''">
                         <a [routerLink]="['/home']">Home</a>
