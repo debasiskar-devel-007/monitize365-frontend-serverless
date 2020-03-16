@@ -64,28 +64,10 @@
 .homeblock5 .mat-list .mat-list-item img{width:auto;max-width:100%}
 .homeblock5 .matbuttoncls{margin-top:20px!important}
 :host /deep/ .homeblock5 .mat-tab-list{position: relative;overflow: hidden;}
-:host /deep/ .homeblock5 .mat-tab-list::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabgradientbg.png) no-repeat;
-    height: 175px;
-    opacity: 1;
-    z-index: 99;
-    background-size: 100%;
-    background-position: top -80px left;
-}
+:host /deep/ .homeblock5 .mat-tab-list::after{content: '';position: absolute;top: 0;left: 0;width: 100%;background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabgradientbg.png) no-repeat;
+    height: 175px;opacity: 1;z-index: 99;background-size: 100%;background-position: top -80px left;}
 :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1):before, :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(2):before, :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(3):before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-}
+    content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 9999;}
 
 @media (max-width:1700px) {
 .homeblock2.mat-card{background-position:top right 40%!important}
