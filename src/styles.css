@@ -716,6 +716,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
       --min-font: 42;
   }
   
+.innerpagebannerbg .mat-card-subtitle {margin-bottom: 0;}
 }
 
 @media (max-width: 600px) {

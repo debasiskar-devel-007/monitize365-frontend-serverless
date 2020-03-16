@@ -116,6 +116,8 @@
 :host /deep/ .marketingdatablock4list1 .mat-list .mat-list-item .mat-list-item-content,:host /deep/ .marketingdatablock4list2 .mat-list .mat-list-item .mat-list-item-content{flex-wrap:wrap;justify-content:center}
 .marketingdatablock4list1 .mat-list .mat-list-item{background-position: center top;}
 .marketingdatablock4list2 .mat-list .mat-list-item{background-position: center top;}
+:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content p {border-left: 0px solid var(--color4-txt);border-top: 4px solid var(--color4-txt);padding-left: 0;text-align: center;padding-top: 16px;}
+:host /deep/ .marketingdatablock2list .mat-list-base .mat-list-item .mat-list-item-content .mat-card-title {text-align: center;}
 }
 @media (max-width: 480px) {
 .marketingdatablock1list .mat-list .mat-list-item{-webkit-box-flex:1 1 100%;flex:1 1 100%}
