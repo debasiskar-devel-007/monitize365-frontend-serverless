@@ -607,6 +607,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 .innerpagebannerbg .main-row-gen{-webkit-box-align:center;align-items:center}
 
 
+.homeblock5 .bannerdesigncls .mat-list-item, .homeblock5 .emailcreativecls .mat-list-item{height: auto !important;flex: 1 1 100% !important;}
+
 @media (max-width: 1666px) {
   .innerpagebannerbg .mat-card-title {margin-top: 0;}
   .innerpagebannerbg .mat-card-title.title2 {--max-font: 46;line-height: normal;}
@@ -724,5 +726,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     --max-font: 90;
     --min-font: 56;
   }
-
+  .matbuttoncls {
+    padding: 10px 30px!important;
+  }
 }
