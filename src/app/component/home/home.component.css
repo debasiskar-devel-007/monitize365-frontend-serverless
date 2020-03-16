@@ -40,14 +40,14 @@
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .mat-list-item-content .flex-column-gen .sideblock-gen p{font-family:var(--main-semibold-font);font-size:var(--base-menu-font-size);margin-top:0!important;padding:50px 15px}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .box-gradient-yellow p{color:var(--main-txt-color)!important}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item .box-gradient-green p{color:var(--main-txt-color)!important}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(1){order:1;z-index:99999999}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(2){order:2;z-index:9999999}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(3){order:3;z-index:999999}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(4){order:4;z-index:99999}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(5){order:5;z-index:9999}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(6){order:6;z-index:999}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(7){order:7;z-index:99}
-:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8){order:8;z-index:9}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(1){order:1;z-index:8}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(2){order:2;z-index:7}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(3){order:3;z-index:6}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(4){order:4;z-index:5}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(5){order:5;z-index:4}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(6){order:6;z-index:3}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(7){order:7;z-index:2}
+:host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8){order:8;z-index:1}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item:nth-child(8) .sideblock-gen{box-shadow:none}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{position:relative}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item::before{content:'';position:absolute;top:84px;left:0;width:100%;z-index:9999;background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock4shadow.png) repeat-x;height:17px}
