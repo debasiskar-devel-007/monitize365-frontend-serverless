@@ -79,10 +79,8 @@
 
 
 @media (max-width: 1199px) {
-    .marketingdatablockbg.mat-card {
-        padding: 10px 0 0!important;
-    }
-    }
+.marketingdatablockbg.mat-card {padding: 10px 0 0!important;}
+}
 
 @media (max-width: 991px) {
 .marketingdatablock3 .marketingdatablock3list .flex-row-gen .marketingdatablock3-img-wrapper img{height:auto;width:100%}
