@@ -496,7 +496,7 @@ h1,p{font-size:calc(var(--min-font) * 1px)}
 .innerpagebannerbg .main-row-gen{-webkit-box-align:center;align-items:center;width:100%}
 .homeblock5 .tabwrapper .mat-tab-header {margin-top: 0;display: block;}
 .homeblock5 .mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {display: none;}
-.homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content img {width: 50px;}
+.homeblock5 .tabwrapper .mat-tab-label .mat-tab-label-content img {width: 50px !important;height: auto !important;}
 .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1).mat-tab-label-active{color: var(--color-txt);text-transform: uppercase;background: #dee9ee;opacity: 1;}
 .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1):after{display: none;}
 .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(2).mat-tab-label-active{color: var(--color-txt);text-transform: uppercase;background: #dee9ee;opacity: 1;}
