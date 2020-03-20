@@ -83,6 +83,7 @@
 }
 
 @media (max-width: 991px) {
+.txtcls {text-align: left;}
 .marketingdatablock3 .marketingdatablock3list .flex-row-gen .marketingdatablock3-img-wrapper img{height:auto;width:100%}
 .marketingdatablockbg.mat-card{min-height:inherit;height:auto;background-position:center bottom!important;text-align:center;padding:10px 0 0!important}
 .innerpagebannerbg.marketingdatablockbg .flex-row-gen{height:100%;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;position:relative;flex-wrap:wrap}
