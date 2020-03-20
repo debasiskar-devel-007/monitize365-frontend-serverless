@@ -534,4 +534,5 @@ h1,p{font-size:calc(var(--min-font) * 1px)}
   .mat-card-title110 {--max-font: 90;--min-font: 56;}
   .matbuttoncls {padding: 10px 30px!important;}
   .serviceblock3img-wrapper {margin-top: -10%;}
+  .innerpagebannerbg .mat-card-subtitle br{display: none;}
 }

@@ -22,11 +22,17 @@
 .teamblock1imgwrapper{margin-top:-25%}
 }
 @media (max-width: 991px) {
+.teamblock1imgwrapper {margin-top: 0%;height: 270px;}
 .teambg.mat-card{min-height:inherit;height:auto;padding-top:58%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#988bff;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
 }
+
+@media (max-width: 767px) {
+.teamblock1.pTB .teamblock1list .mat-card-title {--max-font: 19;line-height: normal;}
+.teamblock1imgwrapper {margin-top: -35%;width: 225px;height: 250px;}
+}
+
 @media (max-width: 640px) {
 .teamblock1list .mat-list-item{width:100%;margin-bottom:25%!important;}
-.teamblock1imgwrapper{margin-top:-40%}
 .teamblock1list .mat-list-item:first-child{margin-top:30%!important}
 :host /deep/ .teamblock1list .mat-list-item:last-child {margin-bottom: 0!important;}
 }
