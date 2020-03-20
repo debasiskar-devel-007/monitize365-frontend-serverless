@@ -69,18 +69,44 @@
 :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(1):before, :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(2):before, :host /deep/ .homeblock5 .tabwrapper .mat-tab-labels .mat-tab-label:nth-child(3):before{
     content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 9999;}
 
+    .homeblock5 .mat-tab-group-wrapper{position: relative;}
+    .homeblock5 .mat-tab-group-wrapper::after{
+        content: '';
+        position: absolute;
+        bottom: -13px;
+        left: 0;
+        height: 123px;
+        width: 100%;
+        background: url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/homeblock5tabbottombg.png);
+        z-index: 99;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
 @media (max-width:1700px) {
 .homeblock2.mat-card{background-position:top right 40%!important}
 }
+@media (max-width:1600px) {
+    .homeblock5 .mat-tab-group-wrapper::after {bottom: -23px;}
+}
+@media (max-width:1500px) {
+.homeblock5 .mat-tab-group-wrapper::after {bottom: -30px;}
+}
+
 @media (max-width:1366px) {
 .homebanner-img-wrapper{width:406px;height:auto;display:block;margin-top:150px}
 .homebanner-img-wrapper img{max-width:100%}
+.homeblock5 .mat-tab-group-wrapper::after {bottom: -45px;}
+.homeblock1 .mainwrapper{position:relative;z-index:99}
+.homeblock1::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(255,255,255,0.7);z-index:9}
 }
 @media (max-width:1199px) {
+.homeblock5 .mat-tab-group-wrapper::after {bottom: -62px;}   
+.homeblock1::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(255,255,255,0.8);z-index:9}
 :host /deep/ .homeblock5 .mat-tab-list::after {background-position: top 0px left;}
 .homesection2wrapper.mat-card{min-height:inherit;height:auto;padding-top:70%!important;background-size:198%!important;background-repeat:no-repeat;background-color:#020e27;padding-bottom:25px!important;background-position:top right 0!important}
 .homebannerbg .flex-row-gen{flex-wrap:wrap}
-.homeblock2.mat-card{min-height:inherit;height:auto;padding-top:46%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#041438;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
+.homeblock2.mat-card{min-height:inherit;height:auto;padding-top:48%!important;background-size:178%!important;background-position:top right;background-repeat:no-repeat;background-color:#041438;padding-bottom:25px!important;background-position:top right 0!important;text-align:center}
 .homeblock2.pTB p{width:auto}
 .homeblock3.pTB .flex-row-gen .main-row-gen .flex-row-gen{flex-wrap:wrap}
 .homeblock3.pTB .sideblock-row-gen .mat-card-title3{text-align:center;margin-left:auto}
@@ -95,8 +121,6 @@
 .pTB .mat-card-title1{line-height:normal}
 .pTB .mat-card-title1 br{display:none}
 .homeblock1{position:relative}
-.homeblock1 .mainwrapper{position:relative;z-index:99}
-.homeblock1::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(255,255,255,0.7);z-index:9}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:24.5%}
 .counterblock{margin:10px auto}
 .homebannerbg .mat-card-subtitle br{display:none}
@@ -104,28 +128,38 @@
 .homeblock5 .mat-tab-group-wrapper{margin-top:20px}
 }
 @media (max-width:991px) {
+    .homeblock5 .mat-tab-group-wrapper::after {bottom: -78px;}
 .homeblock5 .mat-list{flex-wrap:wrap}
 .homeblock5 .mat-list .mat-list-item{height:296px;flex:1 1 31%;margin:1%}
 .homeblock3.pTB .mat-list-base .mat-list-item,.homeblock3.pTB .mat-list-base .mat-list-option{padding-left:10px;padding-right:10px}
-.homebannerbg .mat-card-title{--min-font:57}
+.homebannerbg .mat-card-title{--min-font:57;line-height: 90px;}
 .homeblock3.pTB .mat-list-base{margin-top:0}
 .homebannerbg .mat-card-subtitle{line-height:normal}
 }
+@media (max-width: 840px) {
+    .homebannerbg .mat-card-title {--min-font: 57;line-height: 85px;}
+}
+
 @media (max-width: 767px) {
-.homebannerbg .mat-card-title{--min-font:57;line-height:60px}
+.homebannerbg .mat-card-title {line-height: 80px;}
+.homeblock5 .mat-tab-group-wrapper::after {bottom: -78px;}
 }
 @media (max-width:700px) {
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:32.5%}
 .homeblock5 .mat-list .mat-list-item{flex:1 1 33%}
+.homebannerbg .mat-card-title {line-height: 74px;}
 }
 @media (max-width:600px) {
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:49.5%}
 .homeblock3.pTB .mat-list-base .mat-list-item,.homeblock3.pTB .mat-list-base .mat-list-option{flex:1 1 100%}
-.homebannerbg .mat-card-title {--min-font: 42;line-height: normal;}
+.homebannerbg .mat-card-title {--min-font: 42;line-height: 60px;}
 .homebannerbg .mat-card-subtitle {--max-font: 39;--min-font: 27;}
 :host /deep/ .homeblock5 .mat-tab-list::after {background-position: top 45px left;}
+.homeblock5 .mat-tab-group-wrapper::after {bottom: -92px;}
 }
 @media (max-width:480px) {
+.homebannerbg .mat-card-title {--min-font: 42;line-height: 50px;}
+.homeblock5 .mat-tab-group-wrapper::after {height: 85px;bottom: -56px;}
 :host /deep/ .homeblock4.pTB .mat-list-base .mat-list-item{height:auto;width:100%}
 .homeblock5 .mat-list .mat-list-item{flex:1 1 98%}
 .homebanner-img-wrapper{width:100%}
@@ -135,4 +169,8 @@
 .homeblock3.pTB .mat-list-base .mat-list-item:before{content:"";top:0;left:0;position:absolute;height:1px;width:100%;background:-webkit-gradient(linear,left bottom,left top,from(rgba(255,255,255,1)),color-stop(49%,rgba(174,174,174,1)),to(rgba(255,255,255,1)));background:linear-gradient(to left,rgba(255,255,255,1) 0%,rgba(174,174,174,1) 49%,rgba(255,255,255,1) 100%);filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#fff',endColorstr='#fff',GradientType=1);-webkit-transform:rotateY(180deg);transform:rotate(180deg);margin-top:15px}
 .homeblock3.pTB .mat-list-base .mat-list-item:last-child::after{display:none}
 .geofenceblock4 .flex-row-gen .flex-row-gen {flex-wrap: wrap;}
+.homeblock2 .mat-card-content{margin-bottom: 0;}
+}
+@media (max-width:400px) {
+.homebannerbg .mat-card-title {--min-font: 42;line-height: 42px;}
 }

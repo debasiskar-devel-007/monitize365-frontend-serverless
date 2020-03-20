@@ -37,4 +37,5 @@
 .mapwrapper {margin-top: 20px;}
 .contactusformblock.pTB .mat-card-title2 {line-height: normal;text-align: center;}
 .contactusformblock p {text-align: center;display: block;margin: 0 auto;}
+.contactusformblock.pTB .mat-card-title2 br{display: none;}
 }
