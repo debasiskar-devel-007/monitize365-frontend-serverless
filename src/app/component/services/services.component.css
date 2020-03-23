@@ -31,6 +31,7 @@
 .serviceblock3bg .yellowgradient p{margin-top:0!important;margin-bottom:25px;font-weight:700}
 .serviceblock1bg .greengradient{margin-top:20px}
 .serviceblock2bg.pTB .mat-card-title3 br{display: none;}
+.serviceblock3img-wrapper {margin-top: -2%;}
 }
 
 @media (max-width:1199px) {
