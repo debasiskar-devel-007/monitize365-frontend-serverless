@@ -155,5 +155,8 @@
       }
     }
   },
-  "defaultProject": "monitize365-frontend-serverless"
+  "defaultProject": "monitize365-frontend-serverless",
+  "cli": {
+    "analytics": "a875896b-b389-4185-b11d-69856eeda5ac"
+  }
 }
