@@ -1,6 +1,7 @@
 .serviceblockbg.mat-card{background:url(http://all-frontend-assets.s3.amazonaws.com/monetize365/images/serviceblockbannerbg.jpg) no-repeat center center;background-size:cover;margin:0!important;padding:84px 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;height:582px}
 .innerpagebannerbg.serviceblockbg .mat-card-title{color:var(--color8-txt)}
 .innerpagebannerbg.serviceblockbg .mat-card-subtitle{color:var(--color8-txt)}
+.innerpagebannerbg.serviceblockbg .flex-row-gen{justify-content:space-between!important;}
 .servicebanner-img-wrapper{width:656px;height:470px;display:block;margin-top:22px}
 .servicebanner-img-wrapper img{width:auto!important;position:relative}
 .serviceblock1bg.pTB p{width:auto}
